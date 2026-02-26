@@ -6,13 +6,29 @@ public class PlayerShooting : MonoBehaviour
     [Header("Refs")]
     [SerializeField] private SpinMovement spinMovement;
     [SerializeField] private Transform muzzle;
-    [SerializeField] private GameObject bulletPrefab;
+    [SerializeField] private Bullet bulletPrefab;
 
     [Header("Bullet")]
     [SerializeField] private float bulletSpeed = 12f;
     [SerializeField] private float shootCooldown = 0.15f;
 
+    [Header("Pooling")]
+    [SerializeField] private int poolSize = 3;
+    private Bullet[] pool;
+
     private float nextShootTime = 0f;
+
+    private void Awake()
+    {
+        // Create 3 bullets up front
+        pool = new Bullet[poolSize];
+        for (int i = 0; i < poolSize; i++)
+        {
+            Bullet b = Instantiate(bulletPrefab);
+            b.gameObject.SetActive(false);
+            pool[i] = b;
+        }
+    }
 
     void Reset()
     {
@@ -37,8 +53,18 @@ public class PlayerShooting : MonoBehaviour
         if (Time.time < nextShootTime) return;
         nextShootTime = Time.time + shootCooldown;
 
+
+        Bullet bullet = GetAvailableBullet();
+        if (bullet == null)
+        {
+            // All 3 are currently active -> no shot (your design choice)
+            return;
+        }
+
+        bullet.Fire(muzzle.position, muzzle.rotation);
+
         // Spawn bullet out of the front (muzzle)
-        GameObject bullet = Instantiate(bulletPrefab, muzzle.position, muzzle.rotation);
+        //GameObject bullet = Instantiate(bulletPrefab, muzzle.position, muzzle.rotation);
 
         // Push bullet forward (2D forward = up)
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
@@ -48,5 +74,15 @@ public class PlayerShooting : MonoBehaviour
         // Recoil / buck as a result of firing
         if (spinMovement != null)
             spinMovement.BuckNow();
+    }
+
+    private Bullet GetAvailableBullet()
+    {
+        for (int i = 0; i < pool.Length; i++)
+        {
+            if (!pool[i].gameObject.activeInHierarchy)
+                return pool[i];
+        }
+        return null;
     }
 }
