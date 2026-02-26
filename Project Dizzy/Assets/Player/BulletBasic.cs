@@ -2,22 +2,42 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
+    [Header("Tuning")]
+    [SerializeField] private float speed = 12f;
     [SerializeField] private float maxDistance = 8f;
 
     private Vector3 startPosition;
+    private bool isActive;
 
-    void Start()
+    // Called by the pool/shooter whenever we "fire" this bullet
+    public void Fire(Vector3 position, Quaternion rotation)
     {
-        startPosition = transform.position;
+        transform.SetPositionAndRotation(position, rotation);
+
+        startPosition = position;
+        isActive = true;
+
+        gameObject.SetActive(true);
     }
 
-    void Update()
+    private void Update()
     {
-        float distanceTraveled = Vector3.Distance(startPosition, transform.position);
+        if (!isActive) return;
 
+        // Move forward based on current rotation
+        transform.position += transform.up * speed * Time.deltaTime;
+
+        // Deactivate after traveling far enough
+        float distanceTraveled = Vector3.Distance(startPosition, transform.position);
         if (distanceTraveled >= maxDistance)
         {
-            Destroy(gameObject);
+            Deactivate();
         }
+    }
+
+    public void Deactivate()
+    {
+        isActive = false;
+        gameObject.SetActive(false);
     }
 }

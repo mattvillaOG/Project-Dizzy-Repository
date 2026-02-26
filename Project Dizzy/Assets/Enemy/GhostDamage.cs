@@ -18,6 +18,7 @@ public class GhostDamage : MonoBehaviour
             if (player != null)
             {
                 player.TakeDamage(damage);
+                FindObjectOfType<GameManager>().EnemyDefeated();
                 Debug.Log("Damage applied!");
             }
             else
@@ -30,6 +31,7 @@ public class GhostDamage : MonoBehaviour
 
         if (collision.CompareTag("Projectile"))
         {
+            FindObjectOfType<GameManager>().EnemyDefeated();
             Destroy(gameObject);
         }
     }

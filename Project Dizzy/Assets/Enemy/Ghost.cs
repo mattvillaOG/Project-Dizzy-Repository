@@ -58,4 +58,5 @@ public class Ghost : MonoBehaviour
         // Move using MovePosition (stable with physics)
         rb.MovePosition(currentPos + velocity * Time.fixedDeltaTime);
     }
+
 }
