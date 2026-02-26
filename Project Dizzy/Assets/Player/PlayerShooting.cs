@@ -25,6 +25,11 @@ public class PlayerShooting : MonoBehaviour
         {
             Fire();
         }
+
+        if (Input.touchCount > 0 && Input.GetTouch(0).phase == UnityEngine.TouchPhase.Began)
+        {
+            Fire();
+        }
     }
 
     private void Fire()

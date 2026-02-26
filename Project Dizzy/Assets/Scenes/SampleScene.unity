@@ -231,7 +231,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   playerTag: Player
   target: {fileID: 0}
-  moveSpeed: 3.5
+  moveSpeed: 2.5
   bobSpeed: 10
   bobDistance: 2
 --- !u!4 &18142397
@@ -453,7 +453,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   playerTag: Player
   target: {fileID: 0}
-  moveSpeed: 3.5
+  moveSpeed: 2.5
   bobSpeed: 10
   bobDistance: 2
 --- !u!4 &302572066
@@ -721,7 +721,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   playerTag: Player
   target: {fileID: 0}
-  moveSpeed: 3.5
+  moveSpeed: 2.5
   bobSpeed: 10
   bobDistance: 2
 --- !u!4 &529227520
@@ -936,7 +936,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   playerTag: Player
   target: {fileID: 0}
-  moveSpeed: 3.5
+  moveSpeed: 2.5
   bobSpeed: 10
   bobDistance: 2
 --- !u!4 &684685205
@@ -1067,7 +1067,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   playerTag: Player
   target: {fileID: 0}
-  moveSpeed: 3.5
+  moveSpeed: 2.5
   bobSpeed: 10
   bobDistance: 2
 --- !u!4 &717154140
@@ -1320,7 +1320,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   playerTag: Player
   target: {fileID: 0}
-  moveSpeed: 3.5
+  moveSpeed: 2.5
   bobSpeed: 10
   bobDistance: 2
 --- !u!4 &950901583
@@ -1542,7 +1542,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   playerTag: Player
   target: {fileID: 0}
-  moveSpeed: 3.5
+  moveSpeed: 2.5
   bobSpeed: 10
   bobDistance: 2
 --- !u!4 &1156081428
@@ -1866,8 +1866,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpinMovement
   rotationSpeed: 400
-  buckBackDistance: 1
-  buckDuration: 0.08
+  buckBackDistance: 2
+  buckDuration: 0.2
   buckCooldown: 0.25
   padding: 0.25
   shakeDuration: 0
@@ -2064,7 +2064,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   playerTag: Player
   target: {fileID: 0}
-  moveSpeed: 3.5
+  moveSpeed: 2.5
   bobSpeed: 10
   bobDistance: 2
 --- !u!4 &1799764675
@@ -2364,6 +2364,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1370412179140099777, guid: 85702ba60f6764632ad3237fd0941625, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1080311241, guid: 975b0a93f6f934651a0619e6d8ae86af, type: 3}
+    - target: {fileID: 1370412179140099777, guid: 85702ba60f6764632ad3237fd0941625, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1370412179140099777, guid: 85702ba60f6764632ad3237fd0941625, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1370412179140099777, guid: 85702ba60f6764632ad3237fd0941625, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1370412179140099777, guid: 85702ba60f6764632ad3237fd0941625, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1694304189004262781, guid: 85702ba60f6764632ad3237fd0941625, type: 3}
       propertyPath: m_Name
       value: Ghost
@@ -2407,6 +2427,14 @@ PrefabInstance:
     - target: {fileID: 7922527710092604329, guid: 85702ba60f6764632ad3237fd0941625, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8012954923206564104, guid: 85702ba60f6764632ad3237fd0941625, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8012954923206564104, guid: 85702ba60f6764632ad3237fd0941625, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
