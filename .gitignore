@@ -1,4 +1,12 @@
 # This .gitignore file should be placed at the root of your Unity project directory
+# If your Unity project is inside a subfolder
+Project Dizzy/[Ll]ibrary/
+Project Dizzy/[Tt]emp/
+Project Dizzy/[Oo]bj/
+Project Dizzy/[Ll]ogs/
+Project Dizzy/[Bb]uild/
+Project Dizzy/[Bb]uilds/
+Project Dizzy/[Uu]ser[Ss]ettings/
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
