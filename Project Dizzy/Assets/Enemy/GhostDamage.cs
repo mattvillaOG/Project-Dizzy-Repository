@@ -5,7 +5,7 @@ public class GhostDamage : MonoBehaviour
     [SerializeField] private float damage = 50f;
     [SerializeField] private string playerTag = "Player";
 
-    public float health = 100f;
+    //public float health = 100f;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -26,13 +26,15 @@ public class GhostDamage : MonoBehaviour
                 Debug.Log("SpinMovement not found!");
             }
 
-            Destroy(gameObject);
+            //Destroy(gameObject);
+            gameObject.SetActive(false);
         }
 
         if (collision.CompareTag("Projectile"))
         {
             FindObjectOfType<GameManager>().EnemyDefeated();
-            Destroy(gameObject);
+            //Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
 }

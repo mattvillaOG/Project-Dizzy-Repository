@@ -1,9 +1,17 @@
 using UnityEngine;
+using System;
 
 public class BasicPowerUp : MonoBehaviour
 {
     [SerializeField] private float speedIncrease = 25f;
     [SerializeField] private string playerTag = "Player";
+
+    public Action OnDisabled;
+
+    private void OnDisable()
+    {
+        OnDisabled?.Invoke();
+    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
