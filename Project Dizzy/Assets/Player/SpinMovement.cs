@@ -1,10 +1,11 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SpinMovement : MonoBehaviour
 {
     [Header("Spin")]
-    [SerializeField] private float rotationSpeed = 90f;
+    [SerializeField] public float rotationSpeed = 400f;
 
     [Header("Buck Back")]
     [SerializeField] private float buckBackDistance = 1f;
@@ -34,6 +35,8 @@ public class SpinMovement : MonoBehaviour
     {
         transform.Rotate(0f, 0f, rotationSpeed * Time.deltaTime);
         ClampToCamera();
+
+        if (rotationSpeed <= 0f) { SceneManager.LoadScene("Game Over"); }//Checks to see if the player is still moving
     }
 
     // Call this from your shooting input
@@ -111,5 +114,15 @@ public class SpinMovement : MonoBehaviour
         pos.y = Mathf.Clamp(pos.y, camPos.y - halfHeight + padding, camPos.y + halfHeight - padding);
 
         transform.position = pos;
+    }
+
+    public void TakeDamage(float amount)
+    {
+        rotationSpeed -= amount;
+
+        if (rotationSpeed < 0f)
+            rotationSpeed = 0f;
+
+        Debug.Log("Player took damage! New rotationSpeed: " + rotationSpeed);
     }
 }
