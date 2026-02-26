@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class SpinMovement : MonoBehaviour
 {
     [Header("Spin")]
-    [SerializeField] public float rotationSpeed = 400f;
+    [SerializeField] public float rotationSpeed = 300f;
 
     [Header("Buck Back")]
     [SerializeField] private float buckBackDistance = 1f;
@@ -124,5 +124,15 @@ public class SpinMovement : MonoBehaviour
             rotationSpeed = 0f;
 
         Debug.Log("Player took damage! New rotationSpeed: " + rotationSpeed);
+    }
+
+    public void GainHealth(float amount)
+    {
+        rotationSpeed += amount;
+
+        if (rotationSpeed < 0f)
+            rotationSpeed = 0f;
+
+        Debug.Log("Player gained health! New rotationSpeed: " + rotationSpeed);
     }
 }
