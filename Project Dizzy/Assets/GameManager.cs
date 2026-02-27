@@ -5,12 +5,12 @@ public class GameManager : MonoBehaviour
 {
     public TextMeshProUGUI ghostCountText;
 
-    private int enemyCount;
+    public int enemyCount = 10;
 
     void Start()
     {
         // Count all enemies at the start of the scene
-        enemyCount = GameObject.FindGameObjectsWithTag("Enemy").Length;
+        //enemyCount = GameObject.FindGameObjectsWithTag("Enemy").Length;
         Debug.Log("Enemies Remaining: " + enemyCount);
         UpdateUI();
     }

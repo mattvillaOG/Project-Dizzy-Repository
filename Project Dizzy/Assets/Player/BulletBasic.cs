@@ -13,10 +13,8 @@ public class Bullet : MonoBehaviour
     public void Fire(Vector3 position, Quaternion rotation)
     {
         transform.SetPositionAndRotation(position, rotation);
-
         startPosition = position;
         isActive = true;
-
         gameObject.SetActive(true);
     }
 
