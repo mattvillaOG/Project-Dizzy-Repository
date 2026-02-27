@@ -122,7 +122,7 @@ public class PlayerShooting : MonoBehaviour
         BuildPool();
     }
 
-    public void SetBulletTuning(float newSpeed, float newMaxDistance)
+    /*public void SetBulletTuning(float newSpeed, float newMaxDistance)
     {
         // Apply to bullets already created in the pool
         if (pool != null)
@@ -133,5 +133,5 @@ public class PlayerShooting : MonoBehaviour
                     pool[i].SetTuning(newSpeed, newMaxDistance);
             }
         }
-    }
+    }*/
 }

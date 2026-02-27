@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7251257522724237902}
   - component: {fileID: 444167863952010555}
   m_Layer: 0
-  m_Name: PowerUp (1)
+  m_Name: 2_PowerUp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48,11 +48,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BasicPowerUp
   playerTag: Player
-  rotationSpeedIncrease: 25
-  changeBuckBackDistance: 1
+  rotationSpeedIncrease: 50
   newBuckBackDistance: 3
-  changeBuckCooldown: 1
-  newBuckCooldown: 0.15
+  newBuckDuration: 0.5
+  newBuckCooldown: 0.5
   bulletType: 66
 --- !u!58 &7251257522724237902
 CircleCollider2D:

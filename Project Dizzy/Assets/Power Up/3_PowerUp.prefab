@@ -139,12 +139,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BasicPowerUp
   playerTag: Player
-  rotationSpeedIncrease: 25
-  changeBuckBackDistance: 1
-  newBuckBackDistance: 3
-  changeBuckCooldown: 1
-  newBuckCooldown: 0.15
-  bulletType: 66
+  rotationSpeedIncrease: 50
+  newBuckBackDistance: 2
+  newBuckDuration: 0.05
+  newBuckCooldown: 0.05
+  bulletType: 67
 --- !u!58 &5940753586314211204
 CircleCollider2D:
   m_ObjectHideFlags: 0

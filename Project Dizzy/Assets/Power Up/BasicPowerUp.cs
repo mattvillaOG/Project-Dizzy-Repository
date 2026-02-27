@@ -9,12 +9,13 @@ public class BasicPowerUp : MonoBehaviour
     [Header("Spin Movement Buffs")]
     [SerializeField] private float rotationSpeedIncrease = 25f;
     [SerializeField] private float newBuckBackDistance = 1.5f;
+    [SerializeField] private float newBuckDuration = 1.5f;
     [SerializeField] private float newBuckCooldown = 0.15f;
 
     [Header("Bullet Switch")]
     [SerializeField] private char bulletType = 'B'; // 'A', 'B', or 'C'
-    [SerializeField] private float speed_set;
-    [SerializeField] private float maxDistance_set;
+    //[SerializeField] private float speed_set;
+    //[SerializeField] private float maxDistance_set;
 
     public Action OnDisabled;
 
@@ -35,6 +36,7 @@ public class BasicPowerUp : MonoBehaviour
         {
             spin.rotationSpeed += rotationSpeedIncrease;
             spin.buckBackDistance = newBuckBackDistance;
+            spin.buckDuration = newBuckDuration;
             spin.buckCooldown = newBuckCooldown;
 
             Debug.Log("SpinMovement stats updated.");
@@ -47,7 +49,7 @@ public class BasicPowerUp : MonoBehaviour
         if (shooting != null)
         {
             shooting.SwitchBulletType(bulletType);
-            shooting.SetBulletTuning(speed_set, maxDistance_set);
+            //shooting.SetBulletTuning(speed_set, maxDistance_set);
             Debug.Log($"Bullet switched to '{bulletType}' and tuning applied.");
         }
         else
