@@ -6,11 +6,15 @@ public class PlayerShooting : MonoBehaviour
     [Header("Refs")]
     [SerializeField] private SpinMovement spinMovement;
     [SerializeField] private Transform muzzle;
-    [SerializeField] private Bullet bulletPrefab;
 
-    [Header("Bullet")]
-    [SerializeField] private float bulletSpeed = 12f;
-    [SerializeField] private float shootCooldown = 0.15f;
+    [Header("Bullet Selection")]
+    [SerializeField] private char currentBulletID = 'A';
+
+    [SerializeField] private Bullet bulletA;
+    [SerializeField] private Bullet bulletB;
+    [SerializeField] private Bullet bulletC;
+
+    private Bullet currentBulletPrefab;
 
     [Header("Pooling")]
     [SerializeField] private int poolSize = 3;
@@ -20,14 +24,8 @@ public class PlayerShooting : MonoBehaviour
 
     private void Awake()
     {
-        // Create 3 bullets up front
-        pool = new Bullet[poolSize];
-        for (int i = 0; i < poolSize; i++)
-        {
-            Bullet b = Instantiate(bulletPrefab);
-            b.gameObject.SetActive(false);
-            pool[i] = b;
-        }
+        SelectBulletPrefab();
+        BuildPool();
     }
 
     void Reset()
@@ -42,7 +40,8 @@ public class PlayerShooting : MonoBehaviour
             Fire();
         }
 
-        if (Input.touchCount > 0 && Input.GetTouch(0).phase == UnityEngine.TouchPhase.Began)
+        if (Touchscreen.current != null &&
+            Touchscreen.current.primaryTouch.press.wasPressedThisFrame)
         {
             Fire();
         }
@@ -51,27 +50,14 @@ public class PlayerShooting : MonoBehaviour
     private void Fire()
     {
         if (Time.time < nextShootTime) return;
-        nextShootTime = Time.time + shootCooldown;
-
+        //nextShootTime = Time.time + shootCooldown;
+        nextShootTime = Time.time + spinMovement.buckCooldown;
 
         Bullet bullet = GetAvailableBullet();
-        if (bullet == null)
-        {
-            // All 3 are currently active -> no shot (your design choice)
-            return;
-        }
+        if (bullet == null) return;
 
         bullet.Fire(muzzle.position, muzzle.rotation);
 
-        // Spawn bullet out of the front (muzzle)
-        //GameObject bullet = Instantiate(bulletPrefab, muzzle.position, muzzle.rotation);
-
-        // Push bullet forward (2D forward = up)
-        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-        if (rb != null)
-            rb.linearVelocity = muzzle.up * bulletSpeed;
-
-        // Recoil / buck as a result of firing
         if (spinMovement != null)
             spinMovement.BuckNow();
     }
@@ -85,4 +71,67 @@ public class PlayerShooting : MonoBehaviour
         }
         return null;
     }
+
+    // ------------------------
+    // Bullet Switching Logic
+    // ------------------------
+
+    private void SelectBulletPrefab()
+    {
+        switch (currentBulletID)
+        {
+            case 'B':
+                currentBulletPrefab = bulletB;
+                break;
+            case 'C':
+                currentBulletPrefab = bulletC;
+                break;
+            default:
+                currentBulletPrefab = bulletA;
+                break;
+        }
+    }
+
+    private void BuildPool()
+    {
+        pool = new Bullet[poolSize];
+
+        for (int i = 0; i < poolSize; i++)
+        {
+            Bullet b = Instantiate(currentBulletPrefab);
+            b.gameObject.SetActive(false);
+            pool[i] = b;
+        }
+    }
+
+    public void SwitchBulletType(char newID)
+    {
+        currentBulletID = newID;
+
+        // Destroy old pooled bullets
+        if (pool != null)
+        {
+            for (int i = 0; i < pool.Length; i++)
+            {
+                if (pool[i] != null)
+                    Destroy(pool[i].gameObject);
+            }
+        }
+
+        SelectBulletPrefab();
+        BuildPool();
+    }
+
+    /*public void SetBulletTuning(float newSpeed, float newMaxDistance)
+    {
+        // Apply to bullets already created in the pool
+        if (pool != null)
+        {
+            for (int i = 0; i < pool.Length; i++)
+            {
+                if (pool[i] != null)
+                    pool[i].SetTuning(newSpeed, newMaxDistance);
+            }
+        }
+    }*/
 }

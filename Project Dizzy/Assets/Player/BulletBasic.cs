@@ -38,4 +38,10 @@ public class Bullet : MonoBehaviour
         isActive = false;
         gameObject.SetActive(false);
     }
+
+    public void SetTuning(float newSpeed, float newMaxDistance)
+    {
+        speed = newSpeed;
+        maxDistance = newMaxDistance;
+    }
 }

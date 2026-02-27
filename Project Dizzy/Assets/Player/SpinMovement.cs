@@ -8,9 +8,9 @@ public class SpinMovement : MonoBehaviour
     [SerializeField] public float rotationSpeed = 300f;
 
     [Header("Buck Back")]
-    [SerializeField] private float buckBackDistance = 1f;
-    [SerializeField] private float buckDuration = 0.08f;
-    [SerializeField] private float buckCooldown = 0.25f;
+    [SerializeField] public float buckBackDistance = 1f;
+    [SerializeField] public float buckDuration = 0.08f;
+    [SerializeField] public float buckCooldown = 0.25f;
 
     [Header("Screen Bounds")]
     [SerializeField] private float padding = 0.25f;
