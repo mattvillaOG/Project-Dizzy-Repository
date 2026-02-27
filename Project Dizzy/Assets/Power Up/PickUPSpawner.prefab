@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   prefabsToSpawn:
-  - {fileID: 8063831028916756216, guid: ec73c4d1d57bf4818ac4a901bfbe5758, type: 3}
+  - {fileID: 1061180961776328937, guid: a69eeabc5c06c446a948cd95caa6fba0, type: 3}
   - {fileID: 1061180961776328937, guid: a69eeabc5c06c446a948cd95caa6fba0, type: 3}
   minRespawnTime: 5
   maxRespawnTime: 5
