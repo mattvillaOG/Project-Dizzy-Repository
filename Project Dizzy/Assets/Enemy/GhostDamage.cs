@@ -5,7 +5,7 @@ public class GhostDamage : MonoBehaviour
     [SerializeField] private float damage = 50f;
     [SerializeField] private string playerTag = "Player";
 
-    //public float health = 100f;
+    //public int hits to take = 1;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
