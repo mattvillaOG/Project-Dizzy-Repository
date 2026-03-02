@@ -1,0 +1,806 @@
+fileFormatVersion: 2
+guid: 2b8e64adf49434e2990fd1ef12141ace
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -443480061153203788
+    second: YellowGhost_0
+  - first:
+      213: -5341436780852921871
+    second: YellowGhost_1
+  - first:
+      213: -6933825659924655791
+    second: YellowGhost_2
+  - first:
+      213: 2424512770321063792
+    second: YellowGhost_3
+  - first:
+      213: -7058183646978909972
+    second: YellowGhost_4
+  - first:
+      213: 7027828912946129424
+    second: YellowGhost_5
+  - first:
+      213: 376868044109457751
+    second: YellowGhost_6
+  - first:
+      213: -2396108732603678593
+    second: YellowGhost_7
+  - first:
+      213: -9135566541617398926
+    second: YellowGhost_8
+  - first:
+      213: -1726763783188186851
+    second: YellowGhost_9
+  - first:
+      213: -3425439000665070306
+    second: YellowGhost_10
+  - first:
+      213: 3356432547453142238
+    second: YellowGhost_11
+  - first:
+      213: 689671563733047827
+    second: YellowGhost_12
+  - first:
+      213: -4719647589230346458
+    second: YellowGhost_13
+  - first:
+      213: 6868118171028026785
+    second: YellowGhost_14
+  - first:
+      213: -8212351089885360877
+    second: YellowGhost_15
+  - first:
+      213: 7912049438361103592
+    second: YellowGhost_16
+  - first:
+      213: -9094271712473091620
+    second: YellowGhost_17
+  - first:
+      213: -2564943515463235750
+    second: YellowGhost_18
+  - first:
+      213: -6145780245788486216
+    second: YellowGhost_19
+  - first:
+      213: 5838217331078327055
+    second: YellowGhost_20
+  - first:
+      213: -8861603103134520007
+    second: YellowGhost_21
+  - first:
+      213: -5748441423569756220
+    second: YellowGhost_22
+  - first:
+      213: 9071827114749188983
+    second: YellowGhost_23
+  - first:
+      213: 9117972087815291277
+    second: YellowGhost_24
+  - first:
+      213: -1146589946286449071
+    second: YellowGhost_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: YellowGhost_0
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 779
+        width: 108
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b9aef9eb3178d9f0800000000000000
+      internalID: -443480061153203788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGhost_1
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 753
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f93e074c876fd5b0800000000000000
+      internalID: -5341436780852921871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGhost_2
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 738
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 151d3bd9c4a16cf90800000000000000
+      internalID: -6933825659924655791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGhost_3
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 740
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07f926cd48995a120800000000000000
+      internalID: 2424512770321063792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGhost_4
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 733
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce8d9527e5b4c0e90800000000000000
+      internalID: -7058183646978909972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGhost_5
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 602
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01aaf5a492dd78160800000000000000
+      internalID: 7027828912946129424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGhost_6
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 543
+        width: 172
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75927584d77ea3500800000000000000
+      internalID: 376868044109457751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGhost_7
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 469
+        width: 88
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7042f58dcf4fbed0800000000000000
+      internalID: -2396108732603678593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGhost_8
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 556
+        width: 35
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b73f8f1a2f73180800000000000000
+      internalID: -9135566541617398926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGhost_9
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 327
+        width: 128
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d19fe0cec7d4908e0800000000000000
+      internalID: -1726763783188186851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGhost_10
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 406
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15e69da0656670d0800000000000000
+      internalID: -3425439000665070306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGhost_11
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 432
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed401876e91749e20800000000000000
+      internalID: 3356432547453142238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGhost_12
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 1
+        width: 497
+        height: 533
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31a1ff712a4329900800000000000000
+      internalID: 689671563733047827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGhost_13
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 358
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62f75eaf581708eb0800000000000000
+      internalID: -4719647589230346458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGhost_14
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 369
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a5f7837615705f50800000000000000
+      internalID: 6868118171028026785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGhost_15
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 297
+        width: 16
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31d4794d13ed70e80800000000000000
+      internalID: -8212351089885360877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGhost_16
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 277
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eca7da5b0f3dcd60800000000000000
+      internalID: 7912049438361103592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGhost_17
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 241
+        width: 103
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd1782f9f08aac180800000000000000
+      internalID: -9094271712473091620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGhost_18
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1
+        width: 307
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a574fdb567d776cd0800000000000000
+      internalID: -2564943515463235750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGhost_19
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 241
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b51a2e9d6dc5baa0800000000000000
+      internalID: -6145780245788486216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGhost_20
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 230
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0be37cfab3850150800000000000000
+      internalID: 5838217331078327055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGhost_21
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 217
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93dea21bde2450580800000000000000
+      internalID: -8861603103134520007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGhost_22
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 155
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cfdbf75bfe6930b0800000000000000
+      internalID: -5748441423569756220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGhost_23
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 184
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77bd16e32ba95ed70800000000000000
+      internalID: 9071827114749188983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGhost_24
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 162
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8148260e4b898e70800000000000000
+      internalID: 9117972087815291277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowGhost_25
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 167
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15edf8cc48e7610f0800000000000000
+      internalID: -1146589946286449071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      YellowGhost_0: -443480061153203788
+      YellowGhost_1: -5341436780852921871
+      YellowGhost_10: -3425439000665070306
+      YellowGhost_11: 3356432547453142238
+      YellowGhost_12: 689671563733047827
+      YellowGhost_13: -4719647589230346458
+      YellowGhost_14: 6868118171028026785
+      YellowGhost_15: -8212351089885360877
+      YellowGhost_16: 7912049438361103592
+      YellowGhost_17: -9094271712473091620
+      YellowGhost_18: -2564943515463235750
+      YellowGhost_19: -6145780245788486216
+      YellowGhost_2: -6933825659924655791
+      YellowGhost_20: 5838217331078327055
+      YellowGhost_21: -8861603103134520007
+      YellowGhost_22: -5748441423569756220
+      YellowGhost_23: 9071827114749188983
+      YellowGhost_24: 9117972087815291277
+      YellowGhost_25: -1146589946286449071
+      YellowGhost_3: 2424512770321063792
+      YellowGhost_4: -7058183646978909972
+      YellowGhost_5: 7027828912946129424
+      YellowGhost_6: 376868044109457751
+      YellowGhost_7: -2396108732603678593
+      YellowGhost_8: -9135566541617398926
+      YellowGhost_9: -1726763783188186851
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

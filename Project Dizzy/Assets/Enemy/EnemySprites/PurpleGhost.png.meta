@@ -1,0 +1,278 @@
+fileFormatVersion: 2
+guid: a90f97a7d7ebf4b9f9a8547a21dcd707
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2509442644804387239
+    second: PurpleGhost_0
+  - first:
+      213: 5782760524697358862
+    second: PurpleGhost_1
+  - first:
+      213: 5783462381149175665
+    second: PurpleGhost_2
+  - first:
+      213: 4843036020953595921
+    second: PurpleGhost_3
+  - first:
+      213: 2254274421897802128
+    second: PurpleGhost_4
+  - first:
+      213: -8520918058142441859
+    second: PurpleGhost_5
+  - first:
+      213: 4574309484066478206
+    second: PurpleGhost_6
+  - first:
+      213: -7034179475704999052
+    second: PurpleGhost_7
+  - first:
+      213: -1342275334044091508
+    second: PurpleGhost_8
+  - first:
+      213: -3975928341189550751
+    second: PurpleGhost_9
+  - first:
+      213: 5141009496675824576
+    second: PurpleGhost_10
+  - first:
+      213: 731827877095813401
+    second: PurpleGhost_11
+  - first:
+      213: 5539779403150297432
+    second: PurpleGhost_12
+  - first:
+      213: 1994867642317821464
+    second: PurpleGhost_13
+  - first:
+      213: 5633811672779882196
+    second: PurpleGhost_14
+  - first:
+      213: -2399734842852328118
+    second: PurpleGhost_15
+  - first:
+      213: 5793142891202254637
+    second: PurpleGhost_16
+  - first:
+      213: 9020654956453323405
+    second: PurpleGhost_17
+  - first:
+      213: -7100103779429512217
+    second: PurpleGhost_18
+  - first:
+      213: -5019562717593173820
+    second: PurpleGhost_19
+  - first:
+      213: 8181665160644776734
+    second: PurpleGhost_20
+  - first:
+      213: 8493386528342094554
+    second: PurpleGhost_21
+  - first:
+      213: 3040692639806745608
+    second: PurpleGhost_22
+  - first:
+      213: 6586240515870216031
+    second: PurpleGhost_23
+  - first:
+      213: 8818257647942002512
+    second: PurpleGhost_24
+  - first:
+      213: 7649091620580960213
+    second: PurpleGhost_25
+  - first:
+      213: 1523464149615913859
+    second: PurpleGhost_26
+  - first:
+      213: -2683820825702099601
+    second: PurpleGhost_27
+  - first:
+      213: 2062136672162487463
+    second: PurpleGhost_28
+  - first:
+      213: -1572027104097986338
+    second: PurpleGhost_29
+  - first:
+      213: 4521361967305429088
+    second: PurpleGhost_30
+  - first:
+      213: 1286014649223907266
+    second: PurpleGhost_31
+  - first:
+      213: 2224738933075048240
+    second: PurpleGhost_32
+  - first:
+      213: 1346939193447237351
+    second: PurpleGhost_33
+  - first:
+      213: -1050742018081917092
+    second: PurpleGhost_34
+  - first:
+      213: 2289553185059302826
+    second: PurpleGhost_35
+  - first:
+      213: 7358994969455739871
+    second: PurpleGhost_36
+  - first:
+      213: -7501993684177994449
+    second: PurpleGhost_37
+  - first:
+      213: 3057856595199421278
+    second: PurpleGhost_38
+  - first:
+      213: 7207645871281436797
+    second: PurpleGhost_39
+  - first:
+      213: -9210941558375735219
+    second: PurpleGhost_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PurpleGhost_0
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 119
+        width: 438
+        height: 378
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95eb73cc53bac2dd0800000000000000
+      internalID: -2509442644804387239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: cd05490943a9d42f49bd9ab971bc8df3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1000.0,"y":1000.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      PurpleGhost_0: -2509442644804387239
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -101,8 +101,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_Offset: {x: 0.0441916, y: 0.11760384}
+  m_Radius: 0.78626484
 --- !u!50 &4399621826073070561
 Rigidbody2D:
   serializedVersion: 5
@@ -157,7 +157,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7922527710092604329}
@@ -211,8 +211,8 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 7830040829578866814, guid: 8c1fdc1bb43484021b58216d15c51611, type: 3}
-  m_Color: {r: 0, g: 1, b: 0.20489168, a: 1}
+  m_Sprite: {fileID: 6705018474736463370, guid: b34443bd8697344ff9fe9b9c7b2fd759, type: 3}
+  m_Color: {r: 0.9198113, g: 1, b: 0.93616354, a: 1}
   m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0

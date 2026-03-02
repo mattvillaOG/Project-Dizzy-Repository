@@ -1,0 +1,266 @@
+fileFormatVersion: 2
+guid: 0d7bd37aa824f43c5949b863e18171fb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8293842954131872675
+    second: RedGhost_0
+  - first:
+      213: -2692779829071462679
+    second: RedGhost_1
+  - first:
+      213: -6216957985850127810
+    second: RedGhost_2
+  - first:
+      213: -2910815570329131917
+    second: RedGhost_3
+  - first:
+      213: 1014244806575381221
+    second: RedGhost_4
+  - first:
+      213: -8795653187668059595
+    second: RedGhost_5
+  - first:
+      213: -1668662189915845023
+    second: RedGhost_6
+  - first:
+      213: 1092057092074805493
+    second: RedGhost_7
+  - first:
+      213: -4321394584756497981
+    second: RedGhost_8
+  - first:
+      213: 5827483943583009075
+    second: RedGhost_9
+  - first:
+      213: -1470534615422507668
+    second: RedGhost_10
+  - first:
+      213: -8533453481240098657
+    second: RedGhost_11
+  - first:
+      213: 8015987538543697792
+    second: RedGhost_12
+  - first:
+      213: 6211178454457829628
+    second: RedGhost_13
+  - first:
+      213: 1225360097247791496
+    second: RedGhost_14
+  - first:
+      213: -2838387174927763322
+    second: RedGhost_15
+  - first:
+      213: -9168107408241010213
+    second: RedGhost_16
+  - first:
+      213: -9204399512789290558
+    second: RedGhost_17
+  - first:
+      213: -3480763209569581509
+    second: RedGhost_18
+  - first:
+      213: 597873681612636438
+    second: RedGhost_19
+  - first:
+      213: -2187163583108030999
+    second: RedGhost_20
+  - first:
+      213: -2101114746821616145
+    second: RedGhost_21
+  - first:
+      213: 3831830656561390940
+    second: RedGhost_22
+  - first:
+      213: 5443922255559028518
+    second: RedGhost_23
+  - first:
+      213: 9028038587139835739
+    second: RedGhost_24
+  - first:
+      213: 6801378215755618090
+    second: RedGhost_25
+  - first:
+      213: 5943939267220497600
+    second: RedGhost_26
+  - first:
+      213: 797732536797900697
+    second: RedGhost_27
+  - first:
+      213: -1241758054765843088
+    second: RedGhost_28
+  - first:
+      213: 4814346901055916545
+    second: RedGhost_29
+  - first:
+      213: -463752136393679697
+    second: RedGhost_30
+  - first:
+      213: -8598002186095329913
+    second: RedGhost_31
+  - first:
+      213: -1094394650888460767
+    second: RedGhost_32
+  - first:
+      213: -2628818129663750429
+    second: RedGhost_33
+  - first:
+      213: 6719495861817161827
+    second: RedGhost_34
+  - first:
+      213: -2832107728837608861
+    second: RedGhost_35
+  - first:
+      213: -2329271922185449008
+    second: RedGhost_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RedGhost_0
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 571
+        width: 434
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d54e710a6c956ec80800000000000000
+      internalID: -8293842954131872675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b3c07c5ae5f3b49628c3f5527fee738d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1536.0,"y":1024.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      RedGhost_0: -8293842954131872675
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

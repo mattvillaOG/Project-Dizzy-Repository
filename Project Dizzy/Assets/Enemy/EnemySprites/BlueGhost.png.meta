@@ -1,0 +1,287 @@
+fileFormatVersion: 2
+guid: e2419d659e6d0432885a696554bd8274
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6029215001808807226
+    second: BlueGhost_0
+  - first:
+      213: 931180450618420877
+    second: BlueGhost_1
+  - first:
+      213: -3591016625712980190
+    second: BlueGhost_2
+  - first:
+      213: -7812901176336461474
+    second: BlueGhost_3
+  - first:
+      213: -8207766525501194574
+    second: BlueGhost_4
+  - first:
+      213: 1085722334980621271
+    second: BlueGhost_5
+  - first:
+      213: -3339910347960443631
+    second: BlueGhost_6
+  - first:
+      213: -3286797122874702684
+    second: BlueGhost_7
+  - first:
+      213: -3998691915666420663
+    second: BlueGhost_8
+  - first:
+      213: -3279096430959458075
+    second: BlueGhost_9
+  - first:
+      213: 6722285864298974039
+    second: BlueGhost_10
+  - first:
+      213: 5554534724228366534
+    second: BlueGhost_11
+  - first:
+      213: -6211720772638875576
+    second: BlueGhost_12
+  - first:
+      213: 3166726808442899284
+    second: BlueGhost_13
+  - first:
+      213: -6872099359058473359
+    second: BlueGhost_14
+  - first:
+      213: 1453428181023443706
+    second: BlueGhost_15
+  - first:
+      213: 3952798512473359800
+    second: BlueGhost_16
+  - first:
+      213: -4472693935893742381
+    second: BlueGhost_17
+  - first:
+      213: 8591474258609436970
+    second: BlueGhost_18
+  - first:
+      213: -6852886281700272084
+    second: BlueGhost_19
+  - first:
+      213: -4360878418656266859
+    second: BlueGhost_20
+  - first:
+      213: 6327595403123548178
+    second: BlueGhost_21
+  - first:
+      213: -5625488143222260330
+    second: BlueGhost_22
+  - first:
+      213: -6819034463537424078
+    second: BlueGhost_23
+  - first:
+      213: -8528189284561533192
+    second: BlueGhost_24
+  - first:
+      213: -6602351042138189872
+    second: BlueGhost_25
+  - first:
+      213: 6907873882812686297
+    second: BlueGhost_26
+  - first:
+      213: -6575278560538876227
+    second: BlueGhost_27
+  - first:
+      213: -1968036193390205994
+    second: BlueGhost_28
+  - first:
+      213: 8474735570317550859
+    second: BlueGhost_29
+  - first:
+      213: -4443132874728874111
+    second: BlueGhost_30
+  - first:
+      213: -2763706538213951451
+    second: BlueGhost_31
+  - first:
+      213: -428785301053625464
+    second: BlueGhost_32
+  - first:
+      213: 1805647649844542258
+    second: BlueGhost_33
+  - first:
+      213: -8093183025788067938
+    second: BlueGhost_34
+  - first:
+      213: 5941256087684351041
+    second: BlueGhost_35
+  - first:
+      213: 1708136345736586612
+    second: BlueGhost_36
+  - first:
+      213: 8667910803924086540
+    second: BlueGhost_37
+  - first:
+      213: -3966934494301389311
+    second: BlueGhost_38
+  - first:
+      213: -1957164268836818491
+    second: BlueGhost_39
+  - first:
+      213: -5506119616664050795
+    second: BlueGhost_40
+  - first:
+      213: 4003657921591924304
+    second: BlueGhost_41
+  - first:
+      213: 4422644390179751746
+    second: BlueGhost_42
+  - first:
+      213: -7890139684135688988
+    second: BlueGhost_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 990, y: 557, z: 89, w: 70}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BlueGhost_0
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 556
+        width: 461
+        height: 404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cadab666ece35ca0800000000000000
+      internalID: -6029215001808807226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1536.0,"y":1024.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      BlueGhost_0: -6029215001808807226
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

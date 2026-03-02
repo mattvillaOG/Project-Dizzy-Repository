@@ -1,0 +1,296 @@
+fileFormatVersion: 2
+guid: b34443bd8697344ff9fe9b9c7b2fd759
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6705018474736463370
+    second: GreenGhost_0
+  - first:
+      213: 8765280417338474246
+    second: GreenGhost_1
+  - first:
+      213: -5196574034211440497
+    second: GreenGhost_2
+  - first:
+      213: 2715924825673626408
+    second: GreenGhost_3
+  - first:
+      213: -2114943000091337768
+    second: GreenGhost_4
+  - first:
+      213: -5582196394184440060
+    second: GreenGhost_5
+  - first:
+      213: -3122557261009783625
+    second: GreenGhost_6
+  - first:
+      213: 6320505686774792763
+    second: GreenGhost_7
+  - first:
+      213: 4875922179425375269
+    second: GreenGhost_8
+  - first:
+      213: 6772273459461375269
+    second: GreenGhost_9
+  - first:
+      213: 1685464951168160549
+    second: GreenGhost_10
+  - first:
+      213: 4829574092320339691
+    second: GreenGhost_11
+  - first:
+      213: 4832037278608235460
+    second: GreenGhost_12
+  - first:
+      213: -2039435963758082283
+    second: GreenGhost_13
+  - first:
+      213: -8669755405177433509
+    second: GreenGhost_14
+  - first:
+      213: -5287015397712101888
+    second: GreenGhost_15
+  - first:
+      213: 4837623097485529256
+    second: GreenGhost_16
+  - first:
+      213: 1058602950337453015
+    second: GreenGhost_17
+  - first:
+      213: 1834094065556024645
+    second: GreenGhost_18
+  - first:
+      213: 4762272290876222726
+    second: GreenGhost_19
+  - first:
+      213: -390542344645501101
+    second: GreenGhost_20
+  - first:
+      213: 3256082418899760380
+    second: GreenGhost_21
+  - first:
+      213: -3746380203620899592
+    second: GreenGhost_22
+  - first:
+      213: -8485116540066953136
+    second: GreenGhost_23
+  - first:
+      213: 2633329020842390353
+    second: GreenGhost_24
+  - first:
+      213: 1622799435550523833
+    second: GreenGhost_25
+  - first:
+      213: -3667926896049792517
+    second: GreenGhost_26
+  - first:
+      213: 2202886912697425982
+    second: GreenGhost_27
+  - first:
+      213: 2324935282512715823
+    second: GreenGhost_28
+  - first:
+      213: 676241224981529828
+    second: GreenGhost_29
+  - first:
+      213: -3807890010055616208
+    second: GreenGhost_30
+  - first:
+      213: -1025276386099030839
+    second: GreenGhost_31
+  - first:
+      213: -5521368759294370658
+    second: GreenGhost_32
+  - first:
+      213: -2639131872597386408
+    second: GreenGhost_33
+  - first:
+      213: -6487491111339768059
+    second: GreenGhost_34
+  - first:
+      213: -4127056959543282622
+    second: GreenGhost_35
+  - first:
+      213: 5882996017486694128
+    second: GreenGhost_36
+  - first:
+      213: -8059271886814379273
+    second: GreenGhost_37
+  - first:
+      213: -1341038291237968868
+    second: GreenGhost_38
+  - first:
+      213: 1248787554179408937
+    second: GreenGhost_39
+  - first:
+      213: -6469390126892692181
+    second: GreenGhost_40
+  - first:
+      213: -424495093910216522
+    second: GreenGhost_41
+  - first:
+      213: -1039285699601420341
+    second: GreenGhost_42
+  - first:
+      213: -4324430574108490380
+    second: GreenGhost_43
+  - first:
+      213: -4793296036502080197
+    second: GreenGhost_44
+  - first:
+      213: -383281788363498639
+    second: GreenGhost_45
+  - first:
+      213: -674610856485010770
+    second: GreenGhost_46
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GreenGhost_0
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 358
+        width: 491
+        height: 429
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e291f27c20d0d50800000000000000
+      internalID: 6705018474736463370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6af934395d5c24e8289e5a3c1d8695ef
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1536.0,"y":1024.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      GreenGhost_0: 6705018474736463370
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
