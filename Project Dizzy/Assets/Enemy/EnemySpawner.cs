@@ -2,11 +2,11 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-    [Header("Enemy")]
-    [SerializeField] private GameObject enemyPrefab;
+    [Header("Enemy Types")]
+    [SerializeField] private GameObject[] enemyPrefabs;   // Multiple enemy types
 
-    [Header("Pooling")]
-    [SerializeField] private int poolSize = 10;
+    [Header("Pooling Per Type")]
+    [SerializeField] private int poolSizePerType = 5;
 
     [Header("Spawn Timing (seconds)")]
     [SerializeField] private float spawnInterval = 2f;
@@ -14,26 +14,39 @@ public class EnemySpawner : MonoBehaviour
     [Header("Spawn Options")]
     [SerializeField] private bool spawnOnStart = true;
 
-    private GameObject[] pool;
+    private GameObject[][] pools;   // 2D array: one pool per prefab type
     private float timer;
 
     private void Awake()
     {
-        if (enemyPrefab == null)
+        if (enemyPrefabs == null || enemyPrefabs.Length == 0)
         {
-            Debug.LogError("EnemySpawner: enemyPrefab is not assigned.");
+            Debug.LogError("EnemySpawner: No enemy prefabs assigned.");
             enabled = false;
             return;
         }
 
-        poolSize = Mathf.Max(1, poolSize);
+        poolSizePerType = Mathf.Max(1, poolSizePerType);
 
-        pool = new GameObject[poolSize];
-        for (int i = 0; i < poolSize; i++)
+        // Create pools
+        pools = new GameObject[enemyPrefabs.Length][];
+
+        for (int i = 0; i < enemyPrefabs.Length; i++)
         {
-            GameObject enemy = Instantiate(enemyPrefab);
-            enemy.SetActive(false);
-            pool[i] = enemy;
+            if (enemyPrefabs[i] == null)
+            {
+                Debug.LogError($"EnemySpawner: Enemy prefab at index {i} is null.");
+                continue;
+            }
+
+            pools[i] = new GameObject[poolSizePerType];
+
+            for (int j = 0; j < poolSizePerType; j++)
+            {
+                GameObject enemy = Instantiate(enemyPrefabs[i]);
+                enemy.SetActive(false);
+                pools[i][j] = enemy;
+            }
         }
     }
 
@@ -44,7 +57,7 @@ public class EnemySpawner : MonoBehaviour
         if (spawnOnStart)
         {
             TrySpawn();
-            timer = 0f; // ensure we wait a full interval before the next spawn
+            timer = 0f;
         }
     }
 
@@ -63,33 +76,31 @@ public class EnemySpawner : MonoBehaviour
 
     private void TrySpawn()
     {
-        GameObject enemy = GetInactiveEnemyFromPool();
+        int randomType = Random.Range(0, enemyPrefabs.Length);
+
+        GameObject enemy = GetInactiveEnemyFromPool(randomType);
         if (enemy == null)
         {
-            // Pool is full: all enemies are active, so we do nothing this tick.
+            // All enemies of this type are active
             return;
         }
 
         enemy.transform.position = transform.position;
         enemy.transform.rotation = transform.rotation;
 
-        // Optional: reset enemy state here if needed
-        // enemy.GetComponent<GhostScript>()?.ResetEnemy();
-
         enemy.SetActive(true);
     }
 
-    private GameObject GetInactiveEnemyFromPool()
+    private GameObject GetInactiveEnemyFromPool(int typeIndex)
     {
-        for (int i = 0; i < pool.Length; i++)
+        for (int i = 0; i < pools[typeIndex].Length; i++)
         {
-            if (!pool[i].activeInHierarchy)
-                return pool[i];
+            if (!pools[typeIndex][i].activeInHierarchy)
+                return pools[typeIndex][i];
         }
         return null;
     }
 
-    // Optional helper if you want to change the interval at runtime
     public void SetSpawnInterval(float seconds)
     {
         spawnInterval = Mathf.Max(0f, seconds);
