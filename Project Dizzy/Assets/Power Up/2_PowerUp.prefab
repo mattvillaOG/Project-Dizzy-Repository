@@ -49,7 +49,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BasicPowerUp
   playerTag: Player
   rotationSpeedIncrease: 50
-  newBuckBackDistance: 3
+  newBuckBackDistance: 5
   newBuckDuration: 1
   newBuckCooldown: 1
   bulletType: 66
