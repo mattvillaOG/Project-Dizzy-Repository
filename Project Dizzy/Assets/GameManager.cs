@@ -1,11 +1,16 @@
 using UnityEngine;
 using TMPro;
+using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     public TextMeshProUGUI ghostCountText;
-
     public int enemyCount = 10;
+
+    [Header("UI")]
+    [SerializeField] private GameObject winMenu;
+
 
     void Start()
     {
@@ -37,5 +42,46 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("YOU WIN!");
         // Add win logic here (UI, load next scene, etc.)
+        StartCoroutine(WinSequence());
+
+        //disable all spawners
+        //disable all ghosts
+        //display UI element "Win Menu"
     }
+
+    private IEnumerator WinSequence() {
+
+        //Disable all Enemy Spawners
+        GameObject[] spawners = GameObject.FindGameObjectsWithTag("Enemy Spawner");
+
+        foreach (GameObject spawner in spawners)
+        {
+            spawner.SetActive(false);
+        }
+
+        //Wait ONE frame
+        yield return null;
+
+        //Disable all active Enemies
+        GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+
+        foreach (GameObject enemy in enemies)
+        {
+            enemy.SetActive(false);
+        }
+
+        //Show Win UI
+        if (winMenu != null)
+        {
+            winMenu.SetActive(true);
+        }
+        else
+        {
+            Debug.LogWarning("Win Menu not assigned in GameManager.");
+        }
+
+    }
+
+    public void NextButton()
+    { SceneManager.LoadScene("LevelSelect"); }
 }
