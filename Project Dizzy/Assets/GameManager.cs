@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
 
     [Header("UI")]
     [SerializeField] private GameObject winMenu;
+    [SerializeField] private GameObject loseMenu;
 
 
     void Start()
@@ -18,6 +19,7 @@ public class GameManager : MonoBehaviour
         //enemyCount = GameObject.FindGameObjectsWithTag("Enemy").Length;
         Debug.Log("Enemies Remaining: " + enemyCount);
         UpdateUI();
+        Time.timeScale = 1f; // UN-freeze the game
     }
 
     public void EnemyDefeated()
@@ -47,6 +49,20 @@ public class GameManager : MonoBehaviour
         //disable all spawners
         //disable all ghosts
         //display UI element "Win Menu"
+    }
+
+    public void LoseFunction()
+    {
+        Time.timeScale = 0f; // freeze the game
+        //Show Lose UI
+        if (loseMenu != null)
+        {
+            loseMenu.SetActive(true);
+        }
+        else
+        {
+            Debug.LogWarning("Lose Menu not assigned in GameManager.");
+        }
     }
 
     private IEnumerator WinSequence() {
@@ -82,6 +98,7 @@ public class GameManager : MonoBehaviour
 
     }
 
-    public void NextButton()
-    { SceneManager.LoadScene("LevelSelect"); }
+    public void NextButton() { SceneManager.LoadScene("LevelSelect"); } // load the level select menu
+
+    public void RestartLevel() { SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); } // restart the level
 }

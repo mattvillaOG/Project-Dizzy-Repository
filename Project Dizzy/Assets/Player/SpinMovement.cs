@@ -4,6 +4,9 @@ using UnityEngine.SceneManagement;
 
 public class SpinMovement : MonoBehaviour
 {
+    [Header("GameManager")]
+    [SerializeField] private GameManager gameManager;
+
     [Header("Spin")]
     [SerializeField] public float rotationSpeed = 300f;
 
@@ -36,7 +39,7 @@ public class SpinMovement : MonoBehaviour
         transform.Rotate(0f, 0f, rotationSpeed * Time.deltaTime);
         ClampToCamera();
 
-        if (rotationSpeed <= 0f) { SceneManager.LoadScene("Game Over"); }//Checks to see if the player is still moving
+        if (rotationSpeed <= 0f) { gameManager.LoseFunction(); }//Checks to see if the player is still moving
     }
 
     // Call this from your shooting input
