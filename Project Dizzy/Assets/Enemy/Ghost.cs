@@ -57,6 +57,14 @@ public class Ghost : MonoBehaviour
 
         // Move using MovePosition (stable with physics)
         rb.MovePosition(currentPos + velocity * Time.fixedDeltaTime);
+
+        // flipping the ghost (based on actual movement)
+        Vector3 scale = transform.localScale;
+
+        if (dir.x > 0.001f) scale.x = Mathf.Abs(scale.x);
+        else if (dir.x < -0.001f) scale.x = -Mathf.Abs(scale.x);
+
+        transform.localScale = scale;
     }
 
 }
