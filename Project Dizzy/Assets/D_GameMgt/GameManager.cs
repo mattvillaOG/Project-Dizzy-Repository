@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour
         //enemyCount = GameObject.FindGameObjectsWithTag("Enemy").Length;
         Debug.Log("Enemies Remaining: " + enemyCount);
         UpdateUI();
-        Time.timeScale = 1f; // UN-freeze the game
+        //Time.timeScale = 1f; // UN-freeze the game
     }
 
     public void EnemyDefeated()
@@ -45,10 +45,9 @@ public class GameManager : MonoBehaviour
         Debug.Log("YOU WIN!");
         // Add win logic here (UI, load next scene, etc.)
         StartCoroutine(WinSequence());
+        int current = SceneManager.GetActiveScene().buildIndex;
+        LevelProgress.UnlockNextFrom(current);
 
-        //disable all spawners
-        //disable all ghosts
-        //display UI element "Win Menu"
     }
 
     public void LoseFunction()
