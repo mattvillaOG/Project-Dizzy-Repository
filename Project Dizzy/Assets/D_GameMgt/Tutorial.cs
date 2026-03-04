@@ -10,37 +10,40 @@ public class Tutorial : MonoBehaviour
         [TextArea(3, 10)]
         public string bodyText;
 
-        [Tooltip("Animator state name to play for this page (ex: Page0, Page1)")]
-        public string animationState;
+        public Sprite image;
     }
 
     [Header("Pages")]
     [SerializeField] private TutorialPage[] pages;
 
     [Header("UI References")]
-    [SerializeField] private TMP_Text bodyTextUI;
-
-    [Header("Animated Visual")]
-    [SerializeField] private Animator visualAnimator; // Animator on your UI Image
+    [SerializeField] private TMP_Text bodyTextUI;   // or use Text if you prefer
+    [SerializeField] private Image imageUI;
 
     [Header("Buttons")]
     [SerializeField] private Button nextButton;
     [SerializeField] private Button backButton;
     [SerializeField] private Button startButton;
 
-    private int pageIndex = 0;
+    [Header("Optional")]
+    [Tooltip("If true, tutorial starts on page 0 when enabled.")]
+    [SerializeField] private bool resetOnEnable = true;
 
-    private void Awake()
-    {
-        if (nextButton != null) nextButton.onClick.AddListener(Next);
-        if (backButton != null) backButton.onClick.AddListener(Back);
-        if (startButton != null) startButton.onClick.AddListener(StartGame);
-    }
+    private int pageIndex = 0;
 
     private void OnEnable()
     {
-        pageIndex = 0;
+        if (resetOnEnable) pageIndex = 0;
         Refresh();
+    }
+
+    private void Awake()
+    {
+        // Wire button clicks (so you don't need to add OnClick events manually)
+        if (nextButton != null) nextButton.onClick.AddListener(Next);
+        if (backButton != null) backButton.onClick.AddListener(Back);
+        // Start button: you can also assign this in inspector if you want.
+        if (startButton != null) startButton.onClick.AddListener(StartGame);
     }
 
     void Update()
@@ -51,6 +54,7 @@ public class Tutorial : MonoBehaviour
     public void Next()
     {
         if (pages == null || pages.Length == 0) return;
+
         pageIndex = Mathf.Min(pageIndex + 1, pages.Length - 1);
         Refresh();
     }
@@ -58,28 +62,54 @@ public class Tutorial : MonoBehaviour
     public void Back()
     {
         if (pages == null || pages.Length == 0) return;
+
         pageIndex = Mathf.Max(pageIndex - 1, 0);
         Refresh();
     }
 
     private void Refresh()
     {
-        if (pages == null || pages.Length == 0) return;
+        if (pages == null || pages.Length == 0)
+        {
+            if (bodyTextUI != null) bodyTextUI.text = "";
+            if (imageUI != null)
+            {
+                imageUI.sprite = null;
+                imageUI.enabled = false;
+            }
+
+            SetButtonVisible(backButton, false);
+            SetButtonVisible(nextButton, false);
+            SetButtonVisible(startButton, true); // or false if you prefer
+            return;
+        }
+
+        // Clamp in case pages changed in editor while playing
+        pageIndex = Mathf.Clamp(pageIndex, 0, pages.Length - 1);
+
+        // Update text
+        if (bodyTextUI != null)
+            bodyTextUI.text = pages[pageIndex].bodyText;
+
+        // Update image
+        if (imageUI != null)
+        {
+            imageUI.sprite = pages[pageIndex].image;
+            imageUI.enabled = (pages[pageIndex].image != null);
+        }
 
         bool isFirst = pageIndex == 0;
         bool isLast = pageIndex == pages.Length - 1;
 
-        if (bodyTextUI != null)
-            bodyTextUI.text = pages[pageIndex].bodyText;
+        SetButtonVisible(backButton, !isFirst);
+        SetButtonVisible(nextButton, !isLast);
+        SetButtonVisible(startButton, isLast);
+    }
 
-        if (visualAnimator != null && !string.IsNullOrEmpty(pages[pageIndex].animationState))
-        {
-            visualAnimator.Play(pages[pageIndex].animationState, 0, 0f);
-        }
-
-        if (backButton != null) backButton.gameObject.SetActive(!isFirst);
-        if (nextButton != null) nextButton.gameObject.SetActive(!isLast);
-        if (startButton != null) startButton.gameObject.SetActive(isLast);
+    private void SetButtonVisible(Button btn, bool visible)
+    {
+        if (btn == null) return;
+        btn.gameObject.SetActive(visible);
     }
 
     public void StartGame()
