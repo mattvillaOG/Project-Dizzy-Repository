@@ -18,7 +18,7 @@ public class GhostDamage : MonoBehaviour
             if (player != null)
             {
                 player.TakeDamage(damage);
-                FindObjectOfType<GameManager>().EnemyDefeated();
+                //FindObjectOfType<GameManager>().EnemyDefeated();
                 Debug.Log("Damage applied!");
             }
             else

@@ -1746,7 +1746,7 @@ PrefabInstance:
     - target: {fileID: 3060985590195288102, guid: adf44e6e549c14394afea0bf6fe167c0, type: 3}
       propertyPath: gameManager
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 6021562436068908736}
     - target: {fileID: 3751545668625639035, guid: adf44e6e549c14394afea0bf6fe167c0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2170,7 +2170,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -22.591553, y: -139.51675}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &4023545110606772822
@@ -4698,8 +4698,8 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 5411097172059188969}
-  - {fileID: 2675393394565648640}
   - {fileID: 619394802}
+  - {fileID: 2277270616950100002}
+  - {fileID: 2675393394565648640}
   - {fileID: 417368922}
   - {fileID: 1375971130}
-  - {fileID: 2277270616950100002}

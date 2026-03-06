@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour
         //enemyCount = GameObject.FindGameObjectsWithTag("Enemy").Length;
         Debug.Log("Enemies Remaining: " + enemyCount);
         UpdateUI();
-        //Time.timeScale = 1f; // UN-freeze the game
+        Time.timeScale = 1f; // UN-freeze the game
     }
 
     public void EnemyDefeated()
