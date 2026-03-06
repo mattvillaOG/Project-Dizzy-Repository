@@ -479,7 +479,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1687269855608367197, guid: d9a7a6ab4f51641f9bf4f66ee18050c7, type: 3}
       propertyPath: enemyCount
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 2364630815570421910, guid: d9a7a6ab4f51641f9bf4f66ee18050c7, type: 3}
       propertyPath: m_Name
