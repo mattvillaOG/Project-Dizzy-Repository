@@ -522,10 +522,10 @@ PrefabInstance:
     - target: {fileID: 3920301439604649067, guid: 3a6c98da35f0c4c5cbdba46494d5fe77, type: 3}
       propertyPath: pages.Array.data[0].image
       value: 
-      objectReference: {fileID: -8293842954131872675, guid: 0d7bd37aa824f43c5949b863e18171fb, type: 3}
+      objectReference: {fileID: 3816861890334239742, guid: f15e0fc2b125f4e5baa8176d5e9492f4, type: 3}
     - target: {fileID: 3920301439604649067, guid: 3a6c98da35f0c4c5cbdba46494d5fe77, type: 3}
       propertyPath: pages.Array.data[0].bodyText
-      value: Red Ghosts are Angry! Watch out for their speedy assults!
+      value: Time for a challenge!
       objectReference: {fileID: 0}
     - target: {fileID: 7699022562457680092, guid: 3a6c98da35f0c4c5cbdba46494d5fe77, type: 3}
       propertyPath: m_Name

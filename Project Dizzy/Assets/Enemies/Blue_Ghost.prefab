@@ -142,7 +142,7 @@ MonoBehaviour:
   playerTag: Player
   target: {fileID: 0}
   moveSpeed: 1
-  bobSpeed: 1
+  bobSpeed: 1.2
   bobDistance: 4
 --- !u!114 &8140974711598927100
 MonoBehaviour:
@@ -192,8 +192,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Radius: 0.880057
+  m_Offset: {x: 0.02028668, y: 0.12114662}
+  m_Radius: 0.6725608
 --- !u!50 &2989651158036142876
 Rigidbody2D:
   serializedVersion: 5
