@@ -142,7 +142,7 @@ MonoBehaviour:
   playerTag: Player
   target: {fileID: 0}
   moveSpeed: 1
-  bobSpeed: 1.2
+  bobSpeed: 2
   bobDistance: 4
 --- !u!114 &8140974711598927100
 MonoBehaviour:

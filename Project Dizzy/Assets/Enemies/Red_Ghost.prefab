@@ -50,7 +50,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   playerTag: Player
   target: {fileID: 0}
-  moveSpeed: 3
+  moveSpeed: 4
   bobSpeed: 20
   bobDistance: 8
 --- !u!114 &1268778475009820159
