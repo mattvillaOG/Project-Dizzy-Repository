@@ -355,7 +355,7 @@ PrefabInstance:
       objectReference: {fileID: -6493135533093262027, guid: d549eee183a194b65930931761ac3b6f, type: 3}
     - target: {fileID: 3920301439604649067, guid: 3a6c98da35f0c4c5cbdba46494d5fe77, type: 3}
       propertyPath: pages.Array.data[0].bodyText
-      value: Fire Balls!
+      value: "COLLECT power up (\U0001F525) to shoot Fire Balls to!"
       objectReference: {fileID: 0}
     - target: {fileID: 7699022562457680092, guid: 3a6c98da35f0c4c5cbdba46494d5fe77, type: 3}
       propertyPath: m_Name

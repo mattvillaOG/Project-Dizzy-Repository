@@ -21,19 +21,19 @@ EditorBuildSettings:
     path: Assets/Levels/Intro levels/Level_03_Blue.unity
     guid: fc98c383fb22d4b039c1e8282798c786
   - enabled: 1
-    path: Assets/Levels/Intro levels/Level_04_Red.unity
+    path: Assets/Levels/Intro levels/RedGreen.unity
     guid: bf36dcaebeb7345cfbcf1cdc33d342e9
   - enabled: 1
     path: Assets/Levels/Intro levels/Level_05_Gamer.unity
     guid: fb392fac11c954df0b29458a2c063e41
   - enabled: 1
-    path: Assets/Levels/Level_challenge.unity
+    path: Assets/Levels/Intro levels/Level_04_Challenge.unity
     guid: 2b8ecae41dafb4227bc2ca969d5ba68d
   - enabled: 1
-    path: Assets/Levels/FireLevels/Level_07.unity
+    path: Assets/Levels/FireLevels/FireAir_BlueGreen.unity
     guid: ecc848dae2ac84613afe94fbc54eeb66
   - enabled: 1
-    path: Assets/Levels/Level_08.unity
+    path: Assets/Levels/FireLevels/Level_08.unity
     guid: 2ad42c857cf7e4681b7b657191dc1157
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
