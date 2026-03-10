@@ -12,29 +12,26 @@ EditorBuildSettings:
     path: Assets/User Interface/LevelSelect.unity
     guid: a3be0681891ab4da0bd8054d46cdc8d1
   - enabled: 1
-    path: Assets/Levels/Intro levels/Level_01_Green.unity
+    path: Assets/Levels/Intro levels/01_Green.unity
     guid: e6099c8eff932499ca130d263a1269eb
   - enabled: 1
-    path: Assets/Levels/Intro levels/Level_02_Air.unity
+    path: Assets/Levels/Intro levels/02_Item.unity
     guid: f5d6bfaef30764002bff452684e20e82
   - enabled: 1
-    path: Assets/Levels/Intro levels/Level_03_Blue.unity
+    path: Assets/Levels/Intro levels/03_Blue.unity
     guid: fc98c383fb22d4b039c1e8282798c786
   - enabled: 1
-    path: Assets/Levels/Intro levels/RedGreen.unity
-    guid: bf36dcaebeb7345cfbcf1cdc33d342e9
-  - enabled: 1
-    path: Assets/Levels/Intro levels/Level_05_Gamer.unity
-    guid: fb392fac11c954df0b29458a2c063e41
-  - enabled: 1
-    path: Assets/Levels/Intro levels/Level_04_Challenge.unity
+    path: Assets/Levels/Intro levels/04_GB_Challenge.unity
     guid: 2b8ecae41dafb4227bc2ca969d5ba68d
   - enabled: 1
-    path: Assets/Levels/FireLevels/FireAir_BlueGreen.unity
-    guid: ecc848dae2ac84613afe94fbc54eeb66
+    path: Assets/Levels/Intro levels/05_Red.unity
+    guid: b50c064e152844875be3db4d55ac054c
   - enabled: 1
-    path: Assets/Levels/FireLevels/Level_08.unity
-    guid: 2ad42c857cf7e4681b7b657191dc1157
+    path: Assets/Levels/Intro levels/06_GR_Challenge.unity
+    guid: bf36dcaebeb7345cfbcf1cdc33d342e9
+  - enabled: 1
+    path: Assets/Levels/Intro levels/07_RGB_Challenge.unity
+    guid: fb392fac11c954df0b29458a2c063e41
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
