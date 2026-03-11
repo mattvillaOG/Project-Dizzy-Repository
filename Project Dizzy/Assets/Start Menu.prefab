@@ -1030,15 +1030,10 @@ MonoBehaviour:
     image: {fileID: -7693945976942838975, guid: 28a3e46280e1b4106a3f5eba55fd557b, type: 3}
   - bodyText: Airblasts cause Dio to MOVE BACKWARDS in his chair.
     image: {fileID: 3816861890334239742, guid: f15e0fc2b125f4e5baa8176d5e9492f4, type: 3}
-  - bodyText: 'GHOST have esscaceped form the paranormal dimenson! '
+  - bodyText: 'GHOST are trying to end Dio''s fun! '
     image: {fileID: 6705018474736463370, guid: b34443bd8697344ff9fe9b9c7b2fd759, type: 3}
-  - bodyText: They will chase down Dizzy man to try to stop him from sipping
+  - bodyText: Clear All of the Ghost in the room to WIN the level!
     image: {fileID: 6705018474736463370, guid: b34443bd8697344ff9fe9b9c7b2fd759, type: 3}
-  - bodyText: Shoot ghosts with your air blaster to take them out.
-    image: {fileID: 6705018474736463370, guid: b34443bd8697344ff9fe9b9c7b2fd759, type: 3}
-  - bodyText: 'Clear all of the ghosts in the room to beat teh level and move on
-      to the next round.  '
-    image: {fileID: 0}
   bodyTextUI: {fileID: 3585770203286904818}
   imageUI: {fileID: 299297058728927840}
   nextButton: {fileID: 4408651432872818269}

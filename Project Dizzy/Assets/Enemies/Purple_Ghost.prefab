@@ -156,7 +156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8d0adfe851f64a7189c10fc5bdc0373, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  damage: 100
+  damage: 1000
   playerTag: Player
 --- !u!58 &4026319775960001315
 CircleCollider2D:
