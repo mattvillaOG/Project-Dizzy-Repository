@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 2413997959313601336}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.5182004, y: 2.585919, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -50,7 +50,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   playerTag: Player
   target: {fileID: 0}
-  moveSpeed: 2
+  moveSpeed: 4
   bobSpeed: 2
   bobDistance: 6
 --- !u!114 &5489049368300352558
@@ -101,8 +101,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.02028668, y: 0.12114662}
-  m_Radius: 0.6725608
+  m_Offset: {x: -0.0038170815, y: 0.13560891}
+  m_Radius: 0.65327775
 --- !u!50 &8124136976913243956
 Rigidbody2D:
   serializedVersion: 5
@@ -156,7 +156,7 @@ Transform:
   m_GameObject: {fileID: 7811221181102152982}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.067, y: -0.193, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

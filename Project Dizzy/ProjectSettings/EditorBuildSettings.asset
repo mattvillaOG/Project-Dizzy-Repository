@@ -12,26 +12,80 @@ EditorBuildSettings:
     path: Assets/User Interface/LevelSelect.unity
     guid: a3be0681891ab4da0bd8054d46cdc8d1
   - enabled: 1
-    path: Assets/Levels/Intro levels/01_Green.unity
-    guid: e6099c8eff932499ca130d263a1269eb
+    path: Assets/Levels/New Levels/New Level_01.unity
+    guid: 8114d4bf193dd44a9a5e72e8aade1eaf
   - enabled: 1
-    path: Assets/Levels/Intro levels/02_Item.unity
-    guid: f5d6bfaef30764002bff452684e20e82
+    path: Assets/Levels/New Levels/New Level_02.unity
+    guid: 673f9b72f348a4326ac4478ad56f0ad4
   - enabled: 1
-    path: Assets/Levels/Intro levels/03_Blue.unity
-    guid: fc98c383fb22d4b039c1e8282798c786
+    path: Assets/Levels/New Levels/New Level_03.unity
+    guid: b4ca526ddcada4751a4640e7ae6fef9c
   - enabled: 1
-    path: Assets/Levels/Intro levels/04_GB_Challenge.unity
-    guid: 2b8ecae41dafb4227bc2ca969d5ba68d
+    path: Assets/Levels/New Levels/New Level_04.unity
+    guid: 641227d152ef54c62a932109a392d7f4
   - enabled: 1
-    path: Assets/Levels/Intro levels/05_Red.unity
-    guid: b50c064e152844875be3db4d55ac054c
+    path: Assets/Levels/New Levels/New Level_05.unity
+    guid: a155d52a0c8b1490191e450c3b7ca16c
   - enabled: 1
-    path: Assets/Levels/Intro levels/06_GR_Challenge.unity
-    guid: bf36dcaebeb7345cfbcf1cdc33d342e9
+    path: Assets/Levels/New Levels/New Level_06_Blue.unity
+    guid: 75df7f55a5c2d4a88a1bfcc523493c15
   - enabled: 1
-    path: Assets/Levels/Intro levels/07_RGB_Challenge.unity
-    guid: fb392fac11c954df0b29458a2c063e41
+    path: Assets/Levels/New Levels/New Level_07_Quad.unity
+    guid: 70b5c5b282e6d4d87a3367d0eed610b7
+  - enabled: 1
+    path: Assets/Levels/New Levels/New Level_08.unity
+    guid: 8c6d5f965057b4eb08d93c8a2ddbd54c
+  - enabled: 1
+    path: Assets/Levels/New Levels/New Level_09.unity
+    guid: 1141d3c341970438a9cd9db2b8f6ef4e
+  - enabled: 1
+    path: Assets/Levels/New Levels/New Level_10_FireBall.unity
+    guid: 0315bde674fe94fd58e49f4b1dcb6faa
+  - enabled: 1
+    path: Assets/Levels/New Levels/New Level_11_Red.unity
+    guid: a4d202f0e48f3491695bfe4dcef9feff
+  - enabled: 1
+    path: Assets/Levels/New Levels/New Level_12.unity
+    guid: 71f7b9e65a94c40609770188192152d2
+  - enabled: 1
+    path: Assets/Levels/New Levels/New Level_13.unity
+    guid: 46b9347c41f98409b914da4c5d7ecd82
+  - enabled: 1
+    path: Assets/Levels/New Levels/New Level_14_Elec.unity
+    guid: 44b8a6c2d09654f0e9f6dbb8faf6cb4c
+  - enabled: 1
+    path: Assets/Levels/New Levels/New Level_15_Omi.unity
+    guid: 92ee8003fde5b4d5fbe3f6c0fb3c9e64
+  - enabled: 1
+    path: Assets/Levels/New Levels/New_Level_16.unity
+    guid: f191affbbeb754f6abd64f3a4fc1c272
+  - enabled: 1
+    path: Assets/Levels/New Levels/New_Level_17.unity
+    guid: 90850567941484d8580c6b0f961cfbad
+  - enabled: 1
+    path: Assets/Levels/New Levels/New_Level_18.unity
+    guid: cd8a161782f694335828dc2103b0d6fb
+  - enabled: 1
+    path: Assets/Levels/New Levels/New_Level_19.unity
+    guid: a7a28536a38784f4587ccde4cdac9062
+  - enabled: 1
+    path: Assets/Levels/New Levels/New_Level_20.unity
+    guid: 946f860a9cf08441786d2d57a2c41153
+  - enabled: 1
+    path: Assets/Levels/New Levels/New_Level_21.unity
+    guid: 1db95b293516744d2b9a3038821837c4
+  - enabled: 1
+    path: Assets/Levels/New Levels/New_Level_22.unity
+    guid: e394f72f28fa54f6ab6410d9cfc13c6b
+  - enabled: 1
+    path: Assets/Levels/New Levels/New_Level_23.unity
+    guid: 28c831cf7d1bb470d9b01d5801298dbd
+  - enabled: 1
+    path: Assets/Levels/New Levels/New_Level_24.unity
+    guid: a1bcdc389ea0942d3881ec721e238c74
+  - enabled: 1
+    path: Assets/Levels/New Levels/New_Level_25.unity
+    guid: 73697c0a5a2b0403ab7ea06110338ed6
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
