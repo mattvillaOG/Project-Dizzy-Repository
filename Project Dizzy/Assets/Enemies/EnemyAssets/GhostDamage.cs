@@ -5,6 +5,8 @@ public class GhostDamage : MonoBehaviour
     [SerializeField] private float damage = 50f;
     [SerializeField] private string playerTag = "Player";
 
+    public bool isRainbow = false;
+
     //public int hits to take = 1;
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -35,6 +37,8 @@ public class GhostDamage : MonoBehaviour
             FindObjectOfType<GameManager>().EnemyDefeated();
             //Destroy(gameObject);
             gameObject.SetActive(false);
+
+            if(isRainbow == true){ Debug.Log("Shot Rainbow!"); }
         }
     }
 }
