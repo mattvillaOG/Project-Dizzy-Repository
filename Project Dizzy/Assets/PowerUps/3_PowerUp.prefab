@@ -162,7 +162,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BasicPowerUp
   playerTag: Player
-  rotationSpeedIncrease: 200
+  rotationSpeedIncrease: 100
   newBuckBackDistance: 1
   newBuckDuration: 0.05
   newBuckCooldown: 0.05
