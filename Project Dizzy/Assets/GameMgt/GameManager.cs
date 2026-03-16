@@ -55,6 +55,9 @@ public class GameManager : MonoBehaviour
     public void LoseFunction()
     {
         Time.timeScale = 0f; // freeze the game
+
+        AudioMachine.Instance.PlaySFX("Lose");
+
         //Show Lose UI
         if (loseMenu != null)
         {
@@ -64,6 +67,7 @@ public class GameManager : MonoBehaviour
         {
             Debug.LogWarning("Lose Menu not assigned in GameManager.");
         }
+        
     }
 
     private IEnumerator WinSequence() {
