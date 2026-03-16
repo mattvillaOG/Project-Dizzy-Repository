@@ -823,7 +823,7 @@ PrefabInstance:
     - target: {fileID: 6589926701379775603, guid: 42a04a2bf091f425bac5484263a99a49, type: 3}
       propertyPath: 'prefabsToSpawn.Array.data[0]'
       value: 
-      objectReference: {fileID: 8063831028916756216, guid: ec73c4d1d57bf4818ac4a901bfbe5758, type: 3}
+      objectReference: {fileID: 1061180961776328937, guid: a69eeabc5c06c446a948cd95caa6fba0, type: 3}
     - target: {fileID: 6622840090760049734, guid: 42a04a2bf091f425bac5484263a99a49, type: 3}
       propertyPath: maxRespawnTime
       value: 10
@@ -839,7 +839,7 @@ PrefabInstance:
     - target: {fileID: 6622840090760049734, guid: 42a04a2bf091f425bac5484263a99a49, type: 3}
       propertyPath: 'prefabsToSpawn.Array.data[0]'
       value: 
-      objectReference: {fileID: 8063831028916756216, guid: ec73c4d1d57bf4818ac4a901bfbe5758, type: 3}
+      objectReference: {fileID: 1061180961776328937, guid: a69eeabc5c06c446a948cd95caa6fba0, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

@@ -27,8 +27,8 @@ Transform:
   m_GameObject: {fileID: 2445005331142386194}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.47851, y: 0.47851, z: 0.47851}
+  m_LocalPosition: {x: 0, y: -0.079, z: 0}
+  m_LocalScale: {x: 0.31648698, y: 0.31648698, z: 0.31648698}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5916443162333087126}
@@ -83,7 +83,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7917686856367660848, guid: d42380f35a0114ddd898bc9bf25ab865, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.9286411, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -126,6 +126,7 @@ GameObject:
   - component: {fileID: 1117485730282497016}
   - component: {fileID: 5940753586314211204}
   - component: {fileID: 6135430201852351933}
+  - component: {fileID: 5170592752897298540}
   m_Layer: 0
   m_Name: 3_PowerUp
   m_TagString: Untagged
@@ -162,7 +163,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BasicPowerUp
   playerTag: Player
-  rotationSpeedIncrease: 200
+  rotationSpeedIncrease: 100
   newBuckBackDistance: 1
   newBuckDuration: 0.05
   newBuckCooldown: 0.05
@@ -230,3 +231,17 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &5170592752897298540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7874641097552798064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e62e8573748494b618e415928c958352, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ItemMove
+  height: 0.5
+  speed: 2

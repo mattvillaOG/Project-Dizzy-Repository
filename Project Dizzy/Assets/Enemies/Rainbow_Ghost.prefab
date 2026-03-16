@@ -110,8 +110,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   playerTag: Player
-  moveSpeed: 2
-  radius: 5
+  moveSpeed: 1
+  radius: 10
   rotationSpeed: -10
 --- !u!114 &5854329029710042609
 MonoBehaviour:

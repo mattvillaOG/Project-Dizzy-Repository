@@ -51,7 +51,7 @@ MonoBehaviour:
   playerTag: Player
   target: {fileID: 0}
   moveSpeed: 4
-  bobSpeed: 2
+  bobSpeed: 5
   bobDistance: 6
 --- !u!114 &5489049368300352558
 MonoBehaviour:
@@ -67,6 +67,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   damage: 100
   playerTag: Player
+  isRainbow: 0
 --- !u!58 &8695442498712841158
 CircleCollider2D:
   m_ObjectHideFlags: 0

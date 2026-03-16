@@ -12,13 +12,13 @@ EditorBuildSettings:
     path: Assets/User Interface/LevelSelect.unity
     guid: a3be0681891ab4da0bd8054d46cdc8d1
   - enabled: 1
-    path: Assets/Levels/New Levels/New Level_01.unity
+    path: Assets/Levels/New Levels/Level_01.unity
     guid: 8114d4bf193dd44a9a5e72e8aade1eaf
   - enabled: 1
-    path: Assets/Levels/New Levels/New Level_02.unity
+    path: Assets/Levels/New Levels/Level_02.unity
     guid: 673f9b72f348a4326ac4478ad56f0ad4
   - enabled: 1
-    path: Assets/Levels/New Levels/New Level_03.unity
+    path: Assets/Levels/New Levels/Level_03.unity
     guid: b4ca526ddcada4751a4640e7ae6fef9c
   - enabled: 1
     path: Assets/Levels/New Levels/New Level_04.unity
