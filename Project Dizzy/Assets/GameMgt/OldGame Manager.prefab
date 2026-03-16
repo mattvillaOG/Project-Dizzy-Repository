@@ -633,7 +633,7 @@ GameObject:
   - component: {fileID: 6584540076578252479}
   - component: {fileID: 1687269855608367197}
   m_Layer: 0
-  m_Name: Game Manager
+  m_Name: OldGame Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
