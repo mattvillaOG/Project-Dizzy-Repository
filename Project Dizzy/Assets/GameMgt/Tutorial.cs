@@ -57,6 +57,8 @@ public class Tutorial : MonoBehaviour
 
         pageIndex = Mathf.Min(pageIndex + 1, pages.Length - 1);
         Refresh();
+        AudioMachine.Instance.PlaySFX("BUTTON");
+
     }
 
     public void Back()
@@ -65,6 +67,7 @@ public class Tutorial : MonoBehaviour
 
         pageIndex = Mathf.Max(pageIndex - 1, 0);
         Refresh();
+        AudioMachine.Instance.PlaySFX("BUTTON");
     }
 
     private void Refresh()
@@ -114,6 +117,7 @@ public class Tutorial : MonoBehaviour
 
     public void StartGame()
     {
-        Time.timeScale = 1f; Destroy(gameObject); // UN-freeze the game + disable start menu 
+        Time.timeScale = 1f; Destroy(gameObject); // UN-freeze the game + disable start menu
+        AudioMachine.Instance.PlaySFX("BUTTON");
     }
 }

@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2204857584340985536}
   - component: {fileID: 8792605645804915135}
+  - component: {fileID: 3794021214401847418}
   m_Layer: 0
   m_Name: Audio Machine
   m_TagString: Untagged
@@ -129,3 +130,43 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &3794021214401847418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 117009803677447750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f16a32e739404b569ff18e539a36ad7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioMachine
+  musicSource: {fileID: 8792605645804915135}
+  sfxSource: {fileID: 0}
+  musicClips:
+  - soundName: 
+    clip: {fileID: 0}
+  - soundName: 
+    clip: {fileID: 0}
+  sfxClips:
+  - soundName: 
+    clip: {fileID: 0}
+  - soundName: 
+    clip: {fileID: 0}
+  - soundName: 
+    clip: {fileID: 0}
+  - soundName: 
+    clip: {fileID: 0}
+  - soundName: 
+    clip: {fileID: 0}
+  - soundName: 
+    clip: {fileID: 0}
+  - soundName: 
+    clip: {fileID: 0}
+  - soundName: 
+    clip: {fileID: 0}
+  - soundName: 
+    clip: {fileID: 0}
+  - soundName: 
+    clip: {fileID: 0}
