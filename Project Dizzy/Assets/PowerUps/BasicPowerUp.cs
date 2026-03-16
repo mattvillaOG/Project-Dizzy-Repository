@@ -34,6 +34,8 @@ public class BasicPowerUp : MonoBehaviour
 
         if (spin != null)
         {
+            AudioMachine.Instance.PlaySFX("Collect");
+
             spin.rotationSpeed += rotationSpeedIncrease;
             spin.buckBackDistance = newBuckBackDistance;
             spin.buckDuration = newBuckDuration;

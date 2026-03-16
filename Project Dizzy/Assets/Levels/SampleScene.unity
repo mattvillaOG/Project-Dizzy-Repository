@@ -1234,6 +1234,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Audio Machine
       objectReference: {fileID: 0}
+    - target: {fileID: 486902062485561930, guid: 1afdb39ce5a76479ebcc83f064981b62, type: 3}
+      propertyPath: m_Volume
+      value: 0.22
+      objectReference: {fileID: 0}
     - target: {fileID: 2204857584340985536, guid: 1afdb39ce5a76479ebcc83f064981b62, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.64124
@@ -1273,6 +1277,42 @@ PrefabInstance:
     - target: {fileID: 2204857584340985536, guid: 1afdb39ce5a76479ebcc83f064981b62, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3794021214401847418, guid: 1afdb39ce5a76479ebcc83f064981b62, type: 3}
+      propertyPath: sfxClips.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3794021214401847418, guid: 1afdb39ce5a76479ebcc83f064981b62, type: 3}
+      propertyPath: musicClips.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3794021214401847418, guid: 1afdb39ce5a76479ebcc83f064981b62, type: 3}
+      propertyPath: sfxClips.Array.data[0].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: b052e728932424f0c9fc6658c860d810, type: 3}
+    - target: {fileID: 3794021214401847418, guid: 1afdb39ce5a76479ebcc83f064981b62, type: 3}
+      propertyPath: sfxClips.Array.data[2].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 709fade5bf87049f3bd4aa2a4d910d8d, type: 3}
+    - target: {fileID: 3794021214401847418, guid: 1afdb39ce5a76479ebcc83f064981b62, type: 3}
+      propertyPath: sfxClips.Array.data[3].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: fc42f9dad40294bf3bc56ee4ab13f678, type: 3}
+    - target: {fileID: 3794021214401847418, guid: 1afdb39ce5a76479ebcc83f064981b62, type: 3}
+      propertyPath: sfxClips.Array.data[4].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 696b7cfacabdf49209fd7f1f5dfd35d9, type: 3}
+    - target: {fileID: 3794021214401847418, guid: 1afdb39ce5a76479ebcc83f064981b62, type: 3}
+      propertyPath: sfxClips.Array.data[5].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: a93d3556a72af4bdf978b14bddc89c37, type: 3}
+    - target: {fileID: 3794021214401847418, guid: 1afdb39ce5a76479ebcc83f064981b62, type: 3}
+      propertyPath: musicClips.Array.data[2].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: a93d3556a72af4bdf978b14bddc89c37, type: 3}
+    - target: {fileID: 3794021214401847418, guid: 1afdb39ce5a76479ebcc83f064981b62, type: 3}
+      propertyPath: sfxClips.Array.data[5].soundName
+      value: Win
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
