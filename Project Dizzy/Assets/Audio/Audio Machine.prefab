@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2204857584340985536}
   - component: {fileID: 8792605645804915135}
   - component: {fileID: 3794021214401847418}
+  - component: {fileID: 486902062485561930}
   m_Layer: 0
   m_Name: Audio Machine
   m_TagString: Untagged
@@ -44,9 +45,9 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: f757146f82ac14af482a1c2502b3bfce, type: 3}
+  m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.21
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -143,30 +144,119 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AudioMachine
   musicSource: {fileID: 8792605645804915135}
-  sfxSource: {fileID: 0}
+  sfxSource: {fileID: 486902062485561930}
   musicClips:
-  - soundName: 
-    clip: {fileID: 0}
-  - soundName: 
-    clip: {fileID: 0}
+  - soundName: Main Theme
+    clip: {fileID: 8300000, guid: f757146f82ac14af482a1c2502b3bfce, type: 3}
+  - soundName: Lose Music
+    clip: {fileID: 8300000, guid: f757146f82ac14af482a1c2502b3bfce, type: 3}
+  - soundName: Win Music
+    clip: {fileID: 8300000, guid: f757146f82ac14af482a1c2502b3bfce, type: 3}
   sfxClips:
-  - soundName: 
-    clip: {fileID: 0}
-  - soundName: 
-    clip: {fileID: 0}
-  - soundName: 
-    clip: {fileID: 0}
-  - soundName: 
-    clip: {fileID: 0}
-  - soundName: 
-    clip: {fileID: 0}
-  - soundName: 
-    clip: {fileID: 0}
-  - soundName: 
-    clip: {fileID: 0}
-  - soundName: 
-    clip: {fileID: 0}
-  - soundName: 
-    clip: {fileID: 0}
-  - soundName: 
-    clip: {fileID: 0}
+  - soundName: Shoot
+    clip: {fileID: 8300000, guid: 21f1bfa188368468ca02abfad2e2456a, type: 3}
+  - soundName: Collect
+    clip: {fileID: 8300000, guid: 123911f86de714d4aa2780fc607807a6, type: 3}
+  - soundName: BUTTON
+    clip: {fileID: 8300000, guid: a6998b0fbca2341bb982daa922a62be0, type: 3}
+  - soundName: Hit
+    clip: {fileID: 8300000, guid: c9eaac68f955841d2a69c99e40c5e521, type: 3}
+  - soundName: Kill
+    clip: {fileID: 8300000, guid: ef253337fc5184d5884e18eaf54c85c5, type: 3}
+--- !u!82 &486902062485561930
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 117009803677447750}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

@@ -19,6 +19,7 @@ public class LevelSelectAuto : MonoBehaviour
     private void Start()
     {
         BuildButtons();
+        AudioMachine.Instance.PlayMusic("Select Music");
     }
 
     private void BuildButtons()

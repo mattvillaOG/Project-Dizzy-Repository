@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
         Debug.Log("Enemies Remaining: " + enemyCount);
         UpdateUI();
         Time.timeScale = 1f; // UN-freeze the game
+        AudioMachine.Instance.PlayMusic("Main Theme");
     }
 
     public void EnemyDefeated()
