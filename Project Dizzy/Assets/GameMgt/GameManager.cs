@@ -49,7 +49,7 @@ public class GameManager : MonoBehaviour
         int current = SceneManager.GetActiveScene().buildIndex;
         LevelProgress.UnlockNextFrom(current);
         AudioMachine.Instance.PlaySFX("Win");
-        AudioMachine.Instance.StopMusic();
+        //AudioMachine.Instance.StopMusic();
     }
 
     public void LoseFunction()

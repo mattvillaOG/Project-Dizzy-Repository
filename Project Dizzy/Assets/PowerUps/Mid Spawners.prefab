@@ -151,7 +151,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6703384195110232550}
   m_Layer: 0
-  m_Name: Mid
+  m_Name: Mid Spawners
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

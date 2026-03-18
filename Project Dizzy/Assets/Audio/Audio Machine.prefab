@@ -148,21 +148,19 @@ MonoBehaviour:
   musicClips:
   - soundName: Main Theme
     clip: {fileID: 8300000, guid: f757146f82ac14af482a1c2502b3bfce, type: 3}
-  - soundName: Lose Music
-    clip: {fileID: 8300000, guid: f757146f82ac14af482a1c2502b3bfce, type: 3}
-  - soundName: Win Music
-    clip: {fileID: 8300000, guid: f757146f82ac14af482a1c2502b3bfce, type: 3}
   sfxClips:
   - soundName: Shoot
-    clip: {fileID: 8300000, guid: 21f1bfa188368468ca02abfad2e2456a, type: 3}
+    clip: {fileID: 8300000, guid: b052e728932424f0c9fc6658c860d810, type: 3}
   - soundName: Collect
     clip: {fileID: 8300000, guid: 123911f86de714d4aa2780fc607807a6, type: 3}
   - soundName: BUTTON
-    clip: {fileID: 8300000, guid: a6998b0fbca2341bb982daa922a62be0, type: 3}
+    clip: {fileID: 8300000, guid: 096cbe03ff6474a45a4b3ee21b0b771d, type: 3}
   - soundName: Hit
-    clip: {fileID: 8300000, guid: c9eaac68f955841d2a69c99e40c5e521, type: 3}
+    clip: {fileID: 8300000, guid: fc42f9dad40294bf3bc56ee4ab13f678, type: 3}
   - soundName: Kill
-    clip: {fileID: 8300000, guid: ef253337fc5184d5884e18eaf54c85c5, type: 3}
+    clip: {fileID: 8300000, guid: 696b7cfacabdf49209fd7f1f5dfd35d9, type: 3}
+  - soundName: Win
+    clip: {fileID: 8300000, guid: a93d3556a72af4bdf978b14bddc89c37, type: 3}
 --- !u!82 &486902062485561930
 AudioSource:
   m_ObjectHideFlags: 0
