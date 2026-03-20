@@ -548,7 +548,7 @@ PrefabInstance:
     - target: {fileID: 3794021214401847418, guid: 1afdb39ce5a76479ebcc83f064981b62, type: 3}
       propertyPath: musicClips.Array.data[3].clip
       value: 
-      objectReference: {fileID: 8300000, guid: 78fa6a5e48b5644b381fe8c2991a910d, type: 3}
+      objectReference: {fileID: 8300000, guid: fda7d91d467034a7faa9f6b0130bb2a0, type: 3}
     - target: {fileID: 3794021214401847418, guid: 1afdb39ce5a76479ebcc83f064981b62, type: 3}
       propertyPath: musicClips.Array.data[3].soundName
       value: Select Music
@@ -1011,9 +1011,9 @@ MonoBehaviour:
   m_StartCorner: 0
   m_StartAxis: 0
   m_CellSize: {x: 200, y: 150}
-  m_Spacing: {x: 40, y: 45}
+  m_Spacing: {x: 120, y: 20}
   m_Constraint: 1
-  m_ConstraintCount: 10
+  m_ConstraintCount: 5
 --- !u!114 &1594925034
 MonoBehaviour:
   m_ObjectHideFlags: 0
