@@ -1500,7 +1500,7 @@ PrefabInstance:
       objectReference: {fileID: 3816861890334239742, guid: f15e0fc2b125f4e5baa8176d5e9492f4, type: 3}
     - target: {fileID: 7203256683963867784, guid: 0fae9a66e6e8d49dfb1bd3285aec10f8, type: 3}
       propertyPath: pages.Array.data[0].bodyText
-      value: Ghost can span on BOTH SIDES of the level. Watch your back out there!
+      value: Ghost can spawn on BOTH SIDES of the level. Watch your back out there!
       objectReference: {fileID: 0}
     - target: {fileID: 7203256683963867784, guid: 0fae9a66e6e8d49dfb1bd3285aec10f8, type: 3}
       propertyPath: pages.Array.data[1].bodyText

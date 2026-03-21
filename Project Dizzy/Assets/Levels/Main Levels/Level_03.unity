@@ -133,6 +133,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 5396266786779720369}
     m_Modifications:
     - target: {fileID: 2311547799604033861, guid: 913c4d838f785442797e9c1a9e19e2e1, type: 3}
+      propertyPath: spawnOnStart
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2311547799604033861, guid: 913c4d838f785442797e9c1a9e19e2e1, type: 3}
       propertyPath: poolSizePerType
       value: 3
       objectReference: {fileID: 0}
@@ -1501,6 +1505,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4340528663365542901, guid: 0fae9a66e6e8d49dfb1bd3285aec10f8, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 3816861890334239742, guid: f15e0fc2b125f4e5baa8176d5e9492f4, type: 3}
+    - target: {fileID: 4340528663365542901, guid: 0fae9a66e6e8d49dfb1bd3285aec10f8, type: 3}
+      propertyPath: m_PreserveAspect
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7203256683963867784, guid: 0fae9a66e6e8d49dfb1bd3285aec10f8, type: 3}
       propertyPath: pages.Array.size
       value: 3
@@ -1527,15 +1539,15 @@ PrefabInstance:
       objectReference: {fileID: 3816861890334239742, guid: f15e0fc2b125f4e5baa8176d5e9492f4, type: 3}
     - target: {fileID: 7203256683963867784, guid: 0fae9a66e6e8d49dfb1bd3285aec10f8, type: 3}
       propertyPath: pages.Array.data[0].bodyText
-      value: These are Item Spawners
+      value: These are Item Spawners.
       objectReference: {fileID: 0}
     - target: {fileID: 7203256683963867784, guid: 0fae9a66e6e8d49dfb1bd3285aec10f8, type: 3}
       propertyPath: pages.Array.data[1].bodyText
-      value: Spawners Dispense Power-Ups
+      value: Spawners Dispense POWER-UP items.
       objectReference: {fileID: 0}
     - target: {fileID: 7203256683963867784, guid: 0fae9a66e6e8d49dfb1bd3285aec10f8, type: 3}
       propertyPath: pages.Array.data[2].bodyText
-      value: COLLECT Power-Ups mae you spin FASTER!
+      value: COLLECT Power-Up items to make you spin FASTER!
       objectReference: {fileID: 0}
     - target: {fileID: 7203256683963867784, guid: 0fae9a66e6e8d49dfb1bd3285aec10f8, type: 3}
       propertyPath: pages.Array.data[3].bodyText

@@ -423,7 +423,7 @@ MonoBehaviour:
   - {fileID: 1694304189004262781, guid: 85702ba60f6764632ad3237fd0941625, type: 3}
   poolSizePerType: 2
   spawnInterval: 10
-  spawnOnStart: 0
+  spawnOnStart: 1
 --- !u!1 &161987757229233237
 GameObject:
   m_ObjectHideFlags: 0
@@ -1628,7 +1628,7 @@ MonoBehaviour:
   - {fileID: 1694304189004262781, guid: 85702ba60f6764632ad3237fd0941625, type: 3}
   poolSizePerType: 3
   spawnInterval: 5
-  spawnOnStart: 0
+  spawnOnStart: 1
 --- !u!212 &3501572963176877011
 SpriteRenderer:
   serializedVersion: 2
@@ -1965,7 +1965,7 @@ MonoBehaviour:
   - {fileID: 1694304189004262781, guid: 85702ba60f6764632ad3237fd0941625, type: 3}
   poolSizePerType: 3
   spawnInterval: 5
-  spawnOnStart: 0
+  spawnOnStart: 1
 --- !u!4 &4051792069956680839
 Transform:
   m_ObjectHideFlags: 0
@@ -2383,7 +2383,7 @@ MonoBehaviour:
   - {fileID: 1694304189004262781, guid: 85702ba60f6764632ad3237fd0941625, type: 3}
   poolSizePerType: 3
   spawnInterval: 5
-  spawnOnStart: 0
+  spawnOnStart: 1
 --- !u!1 &4924028690164286293
 GameObject:
   m_ObjectHideFlags: 0
@@ -2435,7 +2435,7 @@ MonoBehaviour:
   - {fileID: 1694304189004262781, guid: 85702ba60f6764632ad3237fd0941625, type: 3}
   poolSizePerType: 2
   spawnInterval: 10
-  spawnOnStart: 0
+  spawnOnStart: 1
 --- !u!82 &5084793150587247107
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4148,7 +4148,7 @@ MonoBehaviour:
   - {fileID: 1694304189004262781, guid: 85702ba60f6764632ad3237fd0941625, type: 3}
   poolSizePerType: 3
   spawnInterval: 5
-  spawnOnStart: 0
+  spawnOnStart: 1
 --- !u!1 &8628006704255824693
 GameObject:
   m_ObjectHideFlags: 0

@@ -675,7 +675,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6844270890448748091, guid: ca44b3c3e7390495c8269813f32ba042, type: 3}
       propertyPath: enemyCount
-      value: 20
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8610242550946028009, guid: ca44b3c3e7390495c8269813f32ba042, type: 3}
       propertyPath: m_Name

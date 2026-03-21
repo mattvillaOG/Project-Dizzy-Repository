@@ -148,6 +148,12 @@ MonoBehaviour:
   musicClips:
   - soundName: Main Theme
     clip: {fileID: 8300000, guid: f757146f82ac14af482a1c2502b3bfce, type: 3}
+  - soundName: 
+    clip: {fileID: 0}
+  - soundName: 
+    clip: {fileID: 0}
+  - soundName: Select Music
+    clip: {fileID: 8300000, guid: fda7d91d467034a7faa9f6b0130bb2a0, type: 3}
   sfxClips:
   - soundName: Shoot
     clip: {fileID: 8300000, guid: b052e728932424f0c9fc6658c860d810, type: 3}
