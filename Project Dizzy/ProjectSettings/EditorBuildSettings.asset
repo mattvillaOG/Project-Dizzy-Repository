@@ -54,7 +54,7 @@ EditorBuildSettings:
     path: Assets/Levels/Main Levels/Level_14_Elec.unity
     guid: 44b8a6c2d09654f0e9f6dbb8faf6cb4c
   - enabled: 1
-    path: Assets/Levels/Main Levels/Level_15_Omi.unity
+    path: Assets/Levels/Main Levels/Level_15.unity
     guid: 92ee8003fde5b4d5fbe3f6c0fb3c9e64
   - enabled: 1
     path: Assets/Levels/Main Levels/Level_16_Purple.unity
@@ -86,6 +86,21 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Levels/Main Levels/Level_25.unity
     guid: 73697c0a5a2b0403ab7ea06110338ed6
+  - enabled: 1
+    path: Assets/Levels/Main Levels/Imperial Levels/Imperial 1.unity
+    guid: 808afa26d42dc4563b5d65bbafaf3a58
+  - enabled: 1
+    path: Assets/Levels/Main Levels/Imperial Levels/Imperial 2.unity
+    guid: 2de6438dc7aab45e799d941eb8477bf7
+  - enabled: 1
+    path: Assets/Levels/Main Levels/Imperial Levels/Imperial 3.unity
+    guid: 42a71649a4fb24843ad6a7ea63541db9
+  - enabled: 1
+    path: Assets/Levels/Main Levels/Imperial Levels/Imperial 4.unity
+    guid: 966230534d94641abbc7daf15b8f1e50
+  - enabled: 1
+    path: Assets/Levels/Main Levels/Imperial Levels/Imperial 5.unity
+    guid: 423202e9b44ed4d4da33aa93f4fde02f
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
