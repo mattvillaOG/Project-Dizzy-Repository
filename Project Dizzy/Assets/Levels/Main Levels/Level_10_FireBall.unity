@@ -225,11 +225,11 @@ PrefabInstance:
       objectReference: {fileID: -6493135533093262027, guid: d549eee183a194b65930931761ac3b6f, type: 3}
     - target: {fileID: 7203256683963867784, guid: 0fae9a66e6e8d49dfb1bd3285aec10f8, type: 3}
       propertyPath: pages.Array.data[0].bodyText
-      value: COLLECT this Power-Up to shoot FIRE!
+      value: COLLECT Fire Power-Up to shoot FIRE-BLAST!
       objectReference: {fileID: 0}
     - target: {fileID: 7203256683963867784, guid: 0fae9a66e6e8d49dfb1bd3285aec10f8, type: 3}
       propertyPath: pages.Array.data[1].bodyText
-      value: Fireballs GO FAR  and are really BIG!
+      value: Fire-Blasts are BIG and GO FAR!
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
