@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
         Debug.Log("Enemies Remaining: " + enemyCount);
         UpdateUI();
         Time.timeScale = 1f; // UN-freeze the game
+        AudioMachine.Instance.PlayMusic("Main Theme");
     }
 
     public void EnemyDefeated()
@@ -47,12 +48,16 @@ public class GameManager : MonoBehaviour
         StartCoroutine(WinSequence());
         int current = SceneManager.GetActiveScene().buildIndex;
         LevelProgress.UnlockNextFrom(current);
-
+        AudioMachine.Instance.PlaySFX("Win");
+        //AudioMachine.Instance.StopMusic();
     }
 
     public void LoseFunction()
     {
         Time.timeScale = 0f; // freeze the game
+
+        AudioMachine.Instance.PlaySFX("Lose");
+
         //Show Lose UI
         if (loseMenu != null)
         {
@@ -62,6 +67,7 @@ public class GameManager : MonoBehaviour
         {
             Debug.LogWarning("Lose Menu not assigned in GameManager.");
         }
+        
     }
 
     private IEnumerator WinSequence() {

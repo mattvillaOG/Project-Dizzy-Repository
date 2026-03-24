@@ -39,6 +39,7 @@ public class GhostDamage : MonoBehaviour
             gameObject.SetActive(false);
 
             if(isRainbow == true){ Debug.Log("Shot Rainbow!"); }
+            AudioMachine.Instance.PlaySFX("Kill");
         }
     }
 }

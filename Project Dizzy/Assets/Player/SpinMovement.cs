@@ -121,6 +121,7 @@ public class SpinMovement : MonoBehaviour
 
     public void TakeDamage(float amount)
     {
+        AudioMachine.Instance.PlaySFX("Hit");
         rotationSpeed -= amount;
 
         if (rotationSpeed < 0f)

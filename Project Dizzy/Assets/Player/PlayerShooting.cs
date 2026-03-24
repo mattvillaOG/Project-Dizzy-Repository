@@ -60,6 +60,8 @@ public class PlayerShooting : MonoBehaviour
 
         if (spinMovement != null)
             spinMovement.BuckNow();
+
+        AudioMachine.Instance.PlaySFX("Shoot");
     }
 
     private Bullet GetAvailableBullet()
