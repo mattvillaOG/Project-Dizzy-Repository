@@ -244,4 +244,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ItemMove
   height: 0.3
-  speed: 5
+  speed: 6
