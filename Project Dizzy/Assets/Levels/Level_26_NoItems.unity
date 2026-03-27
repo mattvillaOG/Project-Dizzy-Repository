@@ -382,7 +382,7 @@ PrefabInstance:
       objectReference: {fileID: -5700235093934245331, guid: 9d2b206cf198b41be89c85e16b96f8a1, type: 3}
     - target: {fileID: 7203256683963867784, guid: 0fae9a66e6e8d49dfb1bd3285aec10f8, type: 3}
       propertyPath: pages.Array.data[0].bodyText
-      value: Welcome to CHALLENGE levels.
+      value: Welcome to CHALLENGE Levels.
       objectReference: {fileID: 0}
     - target: {fileID: 7203256683963867784, guid: 0fae9a66e6e8d49dfb1bd3285aec10f8, type: 3}
       propertyPath: pages.Array.data[1].bodyText

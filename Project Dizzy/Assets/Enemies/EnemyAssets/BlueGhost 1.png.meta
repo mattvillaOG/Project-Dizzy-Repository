@@ -1,0 +1,336 @@
+fileFormatVersion: 2
+guid: ab209fa1cf3764fdea06e8cbfc69c3dd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4557894950577784686
+    second: BlueGhost 1_0
+  - first:
+      213: -8752357332308590985
+    second: BlueGhost 1_1
+  - first:
+      213: 3721636675111392252
+    second: BlueGhost 1_2
+  - first:
+      213: -4506242016476413523
+    second: BlueGhost 1_3
+  - first:
+      213: -2583118865276302691
+    second: BlueGhost 1_4
+  - first:
+      213: -3998413223335521323
+    second: BlueGhost 1_5
+  - first:
+      213: 3361817744502829558
+    second: BlueGhost 1_6
+  - first:
+      213: 5898231650573016812
+    second: BlueGhost 1_7
+  - first:
+      213: -1893148183918963881
+    second: BlueGhost 1_8
+  - first:
+      213: -1109585693655504637
+    second: BlueGhost 1_9
+  - first:
+      213: 4354878337635507209
+    second: BlueGhost 1_10
+  - first:
+      213: -1137146943070496376
+    second: BlueGhost 1_11
+  - first:
+      213: -3653821737537921860
+    second: BlueGhost 1_12
+  - first:
+      213: -4383615865472012939
+    second: BlueGhost 1_13
+  - first:
+      213: -9021490754980539555
+    second: BlueGhost 1_14
+  - first:
+      213: 4407845125456708211
+    second: BlueGhost 1_15
+  - first:
+      213: 679491368304430813
+    second: BlueGhost 1_16
+  - first:
+      213: -927145795750202062
+    second: BlueGhost 1_17
+  - first:
+      213: -2181498809004514156
+    second: BlueGhost 1_18
+  - first:
+      213: -6095297545973887662
+    second: BlueGhost 1_19
+  - first:
+      213: -6600315561373497651
+    second: BlueGhost 1_20
+  - first:
+      213: -3283271694487086647
+    second: BlueGhost 1_21
+  - first:
+      213: 6470737179017478646
+    second: BlueGhost 1_22
+  - first:
+      213: -924100800736489484
+    second: BlueGhost 1_23
+  - first:
+      213: 6011285183732545003
+    second: BlueGhost 1_24
+  - first:
+      213: 5586089986531902689
+    second: BlueGhost 1_25
+  - first:
+      213: 5732882631321516519
+    second: BlueGhost 1_26
+  - first:
+      213: -5905988880984430160
+    second: BlueGhost 1_27
+  - first:
+      213: 9021946527348609865
+    second: BlueGhost 1_28
+  - first:
+      213: -7435917681809346161
+    second: BlueGhost 1_29
+  - first:
+      213: -6279337988838983778
+    second: BlueGhost 1_30
+  - first:
+      213: 7305649211618157377
+    second: BlueGhost 1_31
+  - first:
+      213: -4085883991779685330
+    second: BlueGhost 1_32
+  - first:
+      213: 6091309571990828142
+    second: BlueGhost 1_33
+  - first:
+      213: 6603874630982206462
+    second: BlueGhost 1_34
+  - first:
+      213: 5290457821979795215
+    second: BlueGhost 1_35
+  - first:
+      213: 3268007463543673762
+    second: BlueGhost 1_36
+  - first:
+      213: -3369882726433119222
+    second: BlueGhost 1_37
+  - first:
+      213: 1895266988246358113
+    second: BlueGhost 1_38
+  - first:
+      213: 5487307149357048344
+    second: BlueGhost 1_39
+  - first:
+      213: -3195819466175085422
+    second: BlueGhost 1_40
+  - first:
+      213: 8823827764777571971
+    second: BlueGhost 1_41
+  - first:
+      213: 1388986619443682385
+    second: BlueGhost 1_42
+  - first:
+      213: -1797514957992366914
+    second: BlueGhost 1_43
+  - first:
+      213: -3275479366112716536
+    second: BlueGhost 1_44
+  - first:
+      213: -6851069196135441850
+    second: BlueGhost 1_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BlueGhost 1_6
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 554
+        width: 466
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f132bc4d6397ae20800000000000000
+      internalID: 3361817744502829558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ccfc0e7e1a85449e0971db0b738be5d2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BlueGhost 1_0: -4557894950577784686
+      BlueGhost 1_1: -8752357332308590985
+      BlueGhost 1_10: 4354878337635507209
+      BlueGhost 1_11: -1137146943070496376
+      BlueGhost 1_12: -3653821737537921860
+      BlueGhost 1_13: -4383615865472012939
+      BlueGhost 1_14: -9021490754980539555
+      BlueGhost 1_15: 4407845125456708211
+      BlueGhost 1_16: 679491368304430813
+      BlueGhost 1_17: -927145795750202062
+      BlueGhost 1_18: -2181498809004514156
+      BlueGhost 1_19: -6095297545973887662
+      BlueGhost 1_2: 3721636675111392252
+      BlueGhost 1_20: -6600315561373497651
+      BlueGhost 1_21: -3283271694487086647
+      BlueGhost 1_22: 6470737179017478646
+      BlueGhost 1_23: -924100800736489484
+      BlueGhost 1_24: 6011285183732545003
+      BlueGhost 1_25: 5586089986531902689
+      BlueGhost 1_26: 5732882631321516519
+      BlueGhost 1_27: -5905988880984430160
+      BlueGhost 1_28: 9021946527348609865
+      BlueGhost 1_29: -7435917681809346161
+      BlueGhost 1_3: -4506242016476413523
+      BlueGhost 1_30: -6279337988838983778
+      BlueGhost 1_31: 7305649211618157377
+      BlueGhost 1_32: -4085883991779685330
+      BlueGhost 1_33: 6091309571990828142
+      BlueGhost 1_34: 6603874630982206462
+      BlueGhost 1_35: 5290457821979795215
+      BlueGhost 1_36: 3268007463543673762
+      BlueGhost 1_37: -3369882726433119222
+      BlueGhost 1_38: 1895266988246358113
+      BlueGhost 1_39: 5487307149357048344
+      BlueGhost 1_4: -2583118865276302691
+      BlueGhost 1_40: -3195819466175085422
+      BlueGhost 1_41: 8823827764777571971
+      BlueGhost 1_42: 1388986619443682385
+      BlueGhost 1_43: -1797514957992366914
+      BlueGhost 1_44: -3275479366112716536
+      BlueGhost 1_45: -6851069196135441850
+      BlueGhost 1_5: -3998413223335521323
+      BlueGhost 1_6: 3361817744502829558
+      BlueGhost 1_7: 5898231650573016812
+      BlueGhost 1_8: -1893148183918963881
+      BlueGhost 1_9: -1109585693655504637
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
