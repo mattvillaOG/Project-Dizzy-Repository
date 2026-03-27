@@ -67,6 +67,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   damage: 100
   playerTag: Player
+  isRainbow: 0
 --- !u!58 &2248579229215574985
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -211,7 +212,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 6705018474736463370, guid: b34443bd8697344ff9fe9b9c7b2fd759, type: 3}
+  m_Sprite: {fileID: -1209806917818695926, guid: 61481bb7b977d44b8b06304519d05c12, type: 3}
   m_Color: {r: 0.9198113, g: 1, b: 0.93616354, a: 1}
   m_FlipX: 1
   m_FlipY: 0
