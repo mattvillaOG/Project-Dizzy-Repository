@@ -2357,7 +2357,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   pages:
-  - bodyText: 'Dio SPINS clockwise in his office chair! '
+  - bodyText: 'Dio SPINS counter-clockwise in his office chair! '
     image: {fileID: 3816861890334239742, guid: f15e0fc2b125f4e5baa8176d5e9492f4, type: 3}
   - bodyText: TAP anywhere on the screen SHOOT Air-Blast.
     image: {fileID: -7693945976942838975, guid: 28a3e46280e1b4106a3f5eba55fd557b, type: 3}
