@@ -2365,7 +2365,7 @@ MonoBehaviour:
     image: {fileID: 3816861890334239742, guid: f15e0fc2b125f4e5baa8176d5e9492f4, type: 3}
   - bodyText: "GHOST will make Dio SPIN SLOWER. \n"
     image: {fileID: 6705018474736463370, guid: b34443bd8697344ff9fe9b9c7b2fd759, type: 3}
-  - bodyText: When the chair STOPS spining, it's GAME OVER...
+  - bodyText: When the chair STOPS spinning, it's GAME OVER...
     image: {fileID: 3816861890334239742, guid: f15e0fc2b125f4e5baa8176d5e9492f4, type: 3}
   - bodyText: Clear the amount of TOTAL GHOST to WIN the level!
     image: {fileID: 6705018474736463370, guid: b34443bd8697344ff9fe9b9c7b2fd759, type: 3}
